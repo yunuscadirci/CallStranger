@@ -1,0 +1,1188 @@
+RFC-all\rfc-index.txt:7090 Public Safety Answering Point (PSAP) Callback. H. Schulzrinne, H.
+RFC-all\rfc1045.txt:module may defer the Probe callback to the Client to get that
+RFC-all\rfc1045.txt:callback.)  GetForwarder is implemented as a callback to the Client,
+RFC-all\rfc1045.txt:callback to the Client's VMTP management module to get the Principal,
+RFC-all\rfc1045.txt:      authentication so it never generates a callback Probe to the
+RFC-all\rfc1045.txt:      callback unless the Request is secure.  A Probe callback can
+RFC-all\rfc1045.txt:      avoid unnecessary callback Probes.
+RFC-all\rfc1340.txt:   afs3-callback   7001/tcp   callbacks	to cache managers
+RFC-all\rfc1340.txt:   afs3-callback   7001/udp   callbacks	to cache managers
+RFC-all\rfc1570.txt:        2.3       Callback ........................................   11
+RFC-all\rfc1570.txt:      13      Callback
+RFC-all\rfc1570.txt:2.3.  Callback
+RFC-all\rfc1570.txt:      When Callback is successfully negotiated, and authentication is
+RFC-all\rfc1570.txt:      Callback.
+RFC-all\rfc1570.txt:   A summary of the Callback Option format is shown below.  The fields
+RFC-all\rfc1570.txt:              making the callback.
+RFC-all\rfc1570.txt:              callback location.
+RFC-all\rfc1570.txt:      specific information to make use of the Callback.  The
+RFC-all\rfc1570.txt:   Callback Configuration Option.
+RFC-all\rfc1636.txt:         callbacks and multiple connections (e.g., FTP).  It was
+RFC-all\rfc1689.txt:      callbacks are not an option as the FTP protocol has no provisions
+RFC-all\rfc1700.txt:afs3-callback   7001/tcp   callbacks to cache managers
+RFC-all\rfc1700.txt:afs3-callback   7001/udp   callbacks to cache managers
+RFC-all\rfc1700.txt:c029            CallBack Control Protocol (CBCP)
+RFC-all\rfc1700.txt:  13       Callback
+RFC-all\rfc1700.txt:PPP LCP CALLBACK OPERATION FIELDS
+RFC-all\rfc1700.txt:The Point-to-Point Protocol (PPP) Link Control Protocol (LCP) Callback
+RFC-all\rfc1813.txt:      callback to the client when the lock is granted.
+RFC-all\rfc1934.txt:        [3]  Call the passed termination callback function if not null.
+RFC-all\rfc1934.txt:                the  integrated  phone  number.   A  callback is
+RFC-all\rfc1934.txt:        If  not,  the  callback  could be called (and ignored)
+RFC-all\rfc1934.txt:                        the integrated phone number.  A callback is
+RFC-all\rfc1934.txt:                        If not, the callback could be called (and
+RFC-all\rfc1934.txt:                integrated phone number.  A callback is passed with the
+RFC-all\rfc1934.txt:        requesting the first outgoing call.  If not, the callback could
+RFC-all\rfc2058.txt:      5.19      Callback-Number .................................   36
+RFC-all\rfc2058.txt:      5.20      Callback-Id .....................................   37
+RFC-all\rfc2058.txt:         19      Callback-Number
+RFC-all\rfc2058.txt:         20      Callback-Id
+RFC-all\rfc2058.txt:       3      Callback Login
+RFC-all\rfc2058.txt:       4      Callback Framed
+RFC-all\rfc2058.txt:       9      Callback NAS Prompt
+RFC-all\rfc2058.txt:      Callback Login      The user should be disconnected and called
+RFC-all\rfc2058.txt:      Callback Framed     The user should be disconnected and called
+RFC-all\rfc2058.txt:      Callback NAS Prompt The user should be disconnected and called
+RFC-all\rfc2058.txt:5.19.  Callback-Number
+RFC-all\rfc2058.txt:      This Attribute indicates a dialing string to be used for callback.
+RFC-all\rfc2058.txt:      Access-Request packet as a hint to the server that a Callback
+RFC-all\rfc2058.txt:   A summary of the Callback-Number Attribute format is shown below.
+RFC-all\rfc2058.txt:      19 for Callback-Number.
+RFC-all\rfc2058.txt:5.20.  Callback-Id
+RFC-all\rfc2058.txt:   A summary of the Callback-Id Attribute format is shown below.  The
+RFC-all\rfc2058.txt:      20 for Callback-Id.
+RFC-all\rfc2058.txt:   0-1       0-1      0        0           19   Callback-Number
+RFC-all\rfc2058.txt:   0         0-1      0        0           20   Callback-Id
+RFC-all\rfc2059.txt:      16      Callback
+RFC-all\rfc2059.txt:      Callback             NAS is terminating current session in order
+RFC-all\rfc2059.txt:                           to perform callback for a new session.
+RFC-all\rfc2059.txt:                      0-1   Callback-Number
+RFC-all\rfc2059.txt:                      0-1   Callback-Id
+RFC-all\rfc2125.txt:         5.5.3  Callback-Request ................................   13
+RFC-all\rfc2125.txt:         5.5.4  Callback-Response ...............................   13
+RFC-all\rfc2125.txt:      o Request that the peer add a link to a bundle via a callback
+RFC-all\rfc2125.txt:        (Callback-Request)
+RFC-all\rfc2125.txt:   Callback-Request packet.  A Call-Request packet is sent if the
+RFC-all\rfc2125.txt:   Callback-Request packet is sent if the implementation wishes its peer
+RFC-all\rfc2125.txt:   a Call- or Callback-Request MUST respond with a Call- or Callback-
+RFC-all\rfc2125.txt:   Request, Callback-Request or Link-Drop-Query-Request at the same
+RFC-all\rfc2125.txt:      If each implementation sends a Call-Request or Callback-Request at
+RFC-all\rfc2125.txt:         03       Callback-Request
+RFC-all\rfc2125.txt:         04       Callback-Response
+RFC-all\rfc2125.txt:      original Call-Request or Callback-Request that was used to
+RFC-all\rfc2125.txt:      Call- or Callback-Request) or the minimum (for a Link-Drop-Query-
+RFC-all\rfc2125.txt:5.5.3.  Callback-Request
+RFC-all\rfc2125.txt:   add to the multilink bundle MUST transmit a Callback-Request packet
+RFC-all\rfc2125.txt:   Upon reception of a Callback-Request, a Callback-Response datagram
+RFC-all\rfc2125.txt:5.5.4.  Callback-Response
+RFC-all\rfc2125.txt:   An implementation MUST transmit a Callback-Response datagram in
+RFC-all\rfc2125.txt:   response to a received Callback-Request datagram.  If the Callback-
+RFC-all\rfc2125.txt:   Request is acceptable, the Callback-Response MUST have a Response
+RFC-all\rfc2125.txt:   Code of Request-Ack.  A Callback-Response packet MAY include the
+RFC-all\rfc2125.txt:   result of a Call-Request or a Callback-Request, it MUST send a Call-
+RFC-all\rfc2125.txt:      Callback-Request, and MAY be included in a Call- or Callback-
+RFC-all\rfc2125.txt:      callback connection, or a number determined in some other way.
+RFC-all\rfc2125.txt:      Delta option MUST appear in a Callback-Request.  It also MUST
+RFC-all\rfc2125.txt:Callback-Request              Link-Type
+RFC-all\rfc2125.txt:Callback-Response                                        Link-Type
+RFC-all\rfc2127.txt:            callback(4)
+RFC-all\rfc2128.txt:            callback(4),
+RFC-all\rfc2128.txt:            "Applicable permissions. callback(4) either rejects the
+RFC-all\rfc2128.txt:             Note that callback(4) is supposed to control charging, not
+RFC-all\rfc2128.txt:             security, and applies to callback prior to accepting a
+RFC-all\rfc2128.txt:             call. Callback for security reasons can be handled using
+RFC-all\rfc2128.txt:             PPP callback."
+RFC-all\rfc2128.txt:            callback(3)
+RFC-all\rfc2128.txt:            callback(3)
+RFC-all\rfc2138.txt:      5.19      Callback-Number .................................   37
+RFC-all\rfc2138.txt:      5.20      Callback-Id .....................................   38
+RFC-all\rfc2138.txt:         19      Callback-Number
+RFC-all\rfc2138.txt:         20      Callback-Id
+RFC-all\rfc2138.txt:       3      Callback Login
+RFC-all\rfc2138.txt:       4      Callback Framed
+RFC-all\rfc2138.txt:       9      Callback NAS Prompt
+RFC-all\rfc2138.txt:      Callback Login      The user should be disconnected and called
+RFC-all\rfc2138.txt:      Callback Framed     The user should be disconnected and called
+RFC-all\rfc2138.txt:      Callback NAS Prompt The user should be disconnected and called
+RFC-all\rfc2138.txt:5.19.  Callback-Number
+RFC-all\rfc2138.txt:      This Attribute indicates a dialing string to be used for callback.
+RFC-all\rfc2138.txt:      Access-Request packet as a hint to the server that a Callback
+RFC-all\rfc2138.txt:   A summary of the Callback-Number Attribute format is shown below.
+RFC-all\rfc2138.txt:      19 for Callback-Number.
+RFC-all\rfc2138.txt:5.20.  Callback-Id
+RFC-all\rfc2138.txt:   A summary of the Callback-Id Attribute format is shown below.  The
+RFC-all\rfc2138.txt:      20 for Callback-Id.
+RFC-all\rfc2138.txt:   0-1       0-1      0        0           19   Callback-Number
+RFC-all\rfc2138.txt:   0         0-1      0        0           20   Callback-Id
+RFC-all\rfc2139.txt:      16      Callback
+RFC-all\rfc2139.txt:      Callback             NAS is terminating current session in order
+RFC-all\rfc2139.txt:                           to perform callback for a new session.
+RFC-all\rfc2139.txt:                      0-1   Callback-Number
+RFC-all\rfc2139.txt:                      0-1   Callback-Id
+RFC-all\rfc2205.txt:              route change notification callbacks (see below) whenever
+RFC-all\rfc2205.txt:              the routing process may provide an asynchronous callback
+RFC-all\rfc2458.txt:   callback (as described next).
+RFC-all\rfc2458.txt:   ix)  Agent/Customer Telephony Callback -  the agent will make a
+RFC-all\rfc2458.txt:   PSTN telephone callback. To do so he or she will have to fill in a
+RFC-all\rfc2458.txt:   Call" service by which the selected agent is informed of a callback
+RFC-all\rfc2458.txt:   Callback" service. While this transaction is initiated by the agent
+RFC-all\rfc2458.txt:   The Callback service was deemed to have simpler security requirements
+RFC-all\rfc2543.txt:   about the time of callback. An optional "duration" parameter
+RFC-all\rfc2614.txt:        4.3. Callbacks  . . . . . . . . . . . . . . . . . . . . . .   29
+RFC-all\rfc2614.txt:              4.3.2. SLPSrvTypeCallback . . . . . . . . . . . . . .   30
+RFC-all\rfc2614.txt:              4.3.3. SLPSrvURLCallback  . . . . . . . . . . . . . .   31
+RFC-all\rfc2614.txt:              4.3.4. SLPAttrCallback  . . . . . . . . . . . . . . .   33
+RFC-all\rfc2614.txt:         callback if the request results are reported asynchronously.
+RFC-all\rfc2614.txt:   call the callback function with it, without any additional
+RFC-all\rfc2614.txt:   particular remote SLP agent is reported through the first callback
+RFC-all\rfc2614.txt:   the correspondence.  This allows the callback or client code to
+RFC-all\rfc2614.txt:         In the C API, callback functions are not permitted to
+RFC-all\rfc2614.txt:   allocate most memory and requiring that client callback functions
+RFC-all\rfc2614.txt:   Unless otherwise noted, parameters to API functions and callbacks are
+RFC-all\rfc2614.txt:   The SLP_LAST_CALL code is passed to callback functions when the API
+RFC-all\rfc2614.txt:   be made to the callback on the currently outstanding operation.  The
+RFC-all\rfc2614.txt:   callback can use this to signal the main body of the client code that
+RFC-all\rfc2614.txt:   the last call of a callback during both a synchronous and
+RFC-all\rfc2614.txt:4.3. Callbacks
+RFC-all\rfc2614.txt:   A function pointer to a callback function specific to a particular
+RFC-all\rfc2614.txt:   is invoked.  The callback function is called with the results of the
+RFC-all\rfc2614.txt:   included in the callback parameters is owned by the API library, and
+RFC-all\rfc2614.txt:   the client code in the callback must copy out the contents if it
+RFC-all\rfc2614.txt:   current callback call.
+RFC-all\rfc2614.txt:   each callback parameter list contains an error code parameter and a
+RFC-all\rfc2614.txt:   to the callback without using global variables.  The callback returns
+RFC-all\rfc2614.txt:   processing the operation.  If the value returned from the callback is
+RFC-all\rfc2614.txt:   The SLPRegReport callback type is the type of the callback function
+RFC-all\rfc2614.txt:4.3.2. SLPSrvTypeCallback
+RFC-all\rfc2614.txt:   typedef SLPBoolean SLPSrvTypeCallback(SLPHandle hSLP,
+RFC-all\rfc2614.txt:   The SLPSrvTypeCallback type is the type of the callback function
+RFC-all\rfc2614.txt:   callback MAY be uncollated.  If the hSLP handle parameter was opened
+RFC-all\rfc2614.txt:         operation.  The callback should check this error code before
+RFC-all\rfc2614.txt:4.3.3. SLPSrvURLCallback
+RFC-all\rfc2614.txt:   typedef SLPBoolean SLPSrvURLCallback(SLPHandle hSLP,
+RFC-all\rfc2614.txt:   The SLPSrvURLCallback type is the type of the callback function
+RFC-all\rfc2614.txt:   was opened asynchronously, the results returned through the callback
+RFC-all\rfc2614.txt:         operation.  The callback should check this error code before
+RFC-all\rfc2614.txt:4.3.4. SLPAttrCallback
+RFC-all\rfc2614.txt:   typedef SLPBoolean SLPAttrCallback(SLPHandle hSLP,
+RFC-all\rfc2614.txt:   The SLPAttrCallback type is the type of the callback function
+RFC-all\rfc2614.txt:   The behavior of the callback differs depending on whether the
+RFC-all\rfc2614.txt:   callback is called once regardless of whether the handle was opened
+RFC-all\rfc2614.txt:   was opened asynchronously, the callback is called every time the API
+RFC-all\rfc2614.txt:   from all returning agents and the callback is called once, with the
+RFC-all\rfc2614.txt:         operation.  The callback should check this error code before
+RFC-all\rfc2614.txt:   or asynchronous operations are cancelled so their callback functions
+RFC-all\rfc2614.txt:                   SLPRegReport callback,
+RFC-all\rfc2614.txt:      callback
+RFC-all\rfc2614.txt:         A callback to report the operation completion status.
+RFC-all\rfc2614.txt:         Memory passed to the callback code from the client.  May be
+RFC-all\rfc2614.txt:                     SLPRegReport callback,
+RFC-all\rfc2614.txt:      callback
+RFC-all\rfc2614.txt:         A callback to report the operation completion status.
+RFC-all\rfc2614.txt:         Memory passed to the callback code from the client.  May be
+RFC-all\rfc2614.txt:                        SLPRegReport callback,
+RFC-all\rfc2614.txt:      callback
+RFC-all\rfc2614.txt:         A callback to report the operation completion status.
+RFC-all\rfc2614.txt:         Memory passed to the callback code from the client.  May be
+RFC-all\rfc2614.txt:                            SLPSrvTypeCallback callback,
+RFC-all\rfc2614.txt:   results are returned through the callback parameter.  The service
+RFC-all\rfc2614.txt:      callback
+RFC-all\rfc2614.txt:         A callback function through which the results of the operation
+RFC-all\rfc2614.txt:         Memory passed to the callback code from the client.  May be
+RFC-all\rfc2614.txt:                        SLPSrvURLCallback callback,
+RFC-all\rfc2614.txt:   return the results through the callback.  The parameters determine
+RFC-all\rfc2614.txt:      callback
+RFC-all\rfc2614.txt:         A callback function through which the results of the operation
+RFC-all\rfc2614.txt:         Memory passed to the callback code from the client.  May be
+RFC-all\rfc2614.txt:                         SLPAttrCallback callback,
+RFC-all\rfc2614.txt:   Results are returned through the callback.
+RFC-all\rfc2614.txt:      callback
+RFC-all\rfc2614.txt:         A callback function through which the results of the operation
+RFC-all\rfc2614.txt:         Memory passed to the callback code from the client.  May be
+RFC-all\rfc2614.txt:   Memory passed to callbacks belongs to the library and MUST NOT be
+RFC-all\rfc2614.txt:   Clients are required to copy data out of the callback parameters.  No
+RFC-all\rfc2614.txt:   other use of the parameter memory in callback parameters is allowed.
+RFC-all\rfc2614.txt:   results are reported through the callback function.  The return code
+RFC-all\rfc2614.txt:   The callback function is called whenever the API library has results
+RFC-all\rfc2614.txt:   to report.  The callback code is required to check the error code
+RFC-all\rfc2614.txt:   error occurs.  The callback code can similarly indicate that the
+RFC-all\rfc2614.txt:   operation should be terminated by passing back SLP_FALSE. Callback
+RFC-all\rfc2614.txt:   recursive callbacks on the same handle simplifies implementation of
+RFC-all\rfc2614.txt:   On the last call to a callback, whether asynchronous or synchronous,
+RFC-all\rfc2614.txt:   the status code passed to the callback has value SLP_LAST_CALL. There
+RFC-all\rfc2614.txt:   SLPRegReport errCallback = POPRegErrCallback;
+RFC-all\rfc2614.txt:                errCallback,
+RFC-all\rfc2614.txt:   The errCallback reports any errors:
+RFC-all\rfc2614.txt:   POPRegErrCallback(SLPHandle hSLP,
+RFC-all\rfc2614.txt:   SLPSrvURLCallback srvCallback =           /* the callback      */
+RFC-all\rfc2614.txt:                                   POPSrvURLCallback;
+RFC-all\rfc2614.txt:                     srvCallback, NULL);
+RFC-all\rfc2614.txt:   Within the callback, the client code can use the returned POP
+RFC-all\rfc2614.txt:  POPSrvURLCallback(SLPHandle hSLP,
+RFC-all\rfc2614.txt:   SLPAttrCallback attrCallBack =            /* the callback         */
+RFC-all\rfc2614.txt:                                  POPUsersCallback
+RFC-all\rfc2614.txt:                  attrCallBack, NULL);
+RFC-all\rfc2614.txt:   The callback processes the attributes:
+RFC-all\rfc2614.txt:   POPUsersCallback(const char* pcAttrList,
+RFC-all\rfc2704.txt:   parameter of the query, or it may provide some form of callback
+RFC-all\rfc2704.txt:   from the application as needed by the evaluator, through a `callback'
+RFC-all\rfc2805.txt:   a.   Callback capabilities:
+RFC-all\rfc2805.txt:   *    Callback
+RFC-all\rfc2848.txt:   4.9. Request for a callback ..................................... 42
+RFC-all\rfc2848.txt:   As examples, consider a user who wishes to have a callback placed to
+RFC-all\rfc2848.txt:4.9. Request for a callback
+RFC-all\rfc2865.txt:      5.19      Callback-Number .................................   42
+RFC-all\rfc2865.txt:      5.20      Callback-Id .....................................   42
+RFC-all\rfc2865.txt:         19      Callback-Number
+RFC-all\rfc2865.txt:         20      Callback-Id
+RFC-all\rfc2865.txt:       3      Callback Login
+RFC-all\rfc2865.txt:       4      Callback Framed
+RFC-all\rfc2865.txt:       9      Callback NAS Prompt
+RFC-all\rfc2865.txt:      11      Callback Administrative
+RFC-all\rfc2865.txt:      Callback Login      The user should be disconnected and called
+RFC-all\rfc2865.txt:      Callback Framed     The user should be disconnected and called
+RFC-all\rfc2865.txt:      Callback NAS Prompt The user should be disconnected and called
+RFC-all\rfc2865.txt:      Callback Administrative
+RFC-all\rfc2865.txt:5.19.  Callback-Number
+RFC-all\rfc2865.txt:      This Attribute indicates a dialing string to be used for callback.
+RFC-all\rfc2865.txt:      Access-Request packet as a hint to the server that a Callback
+RFC-all\rfc2865.txt:   A summary of the Callback-Number Attribute format is shown below.
+RFC-all\rfc2865.txt:      19 for Callback-Number.
+RFC-all\rfc2865.txt:5.20.  Callback-Id
+RFC-all\rfc2865.txt:   A summary of the Callback-Id Attribute format is shown below.  The
+RFC-all\rfc2865.txt:      20 for Callback-Id.
+RFC-all\rfc2865.txt:   0-1       0-1      0        0           19   Callback-Number
+RFC-all\rfc2865.txt:   0         0-1      0        0           20   Callback-Id
+RFC-all\rfc2866.txt:      16      Callback
+RFC-all\rfc2866.txt:      Callback             NAS is terminating current session in order
+RFC-all\rfc2866.txt:                           to perform callback for a new session.
+RFC-all\rfc2866.txt:                      0-1   Callback-Number
+RFC-all\rfc2866.txt:                      0-1   Callback-Id
+RFC-all\rfc2869.txt:      The inclusion of a Callback-Number or Callback-Id attribute in the
+RFC-all\rfc2869.txt:      the Feature Flags to begin callback processing in an ARAP specific
+RFC-all\rfc2881.txt:   - callback (NAS generates call to caller); Ability to cause the NAS to
+RFC-all\rfc2881.txt:        - callback instructions
+RFC-all\rfc2924.txt:      19  Callback-Number                   47  Acct-Input-Packets
+RFC-all\rfc2924.txt:      20  Callback-Id                       48  Acct-Output-Packets
+RFC-all\rfc3010.txt:   3.4.  Callback RPC Authentication  . . . . . . . . . . . . . . .  22
+RFC-all\rfc3010.txt:   9.2.  Delegation and Callbacks . . . . . . . . . . . . . . . . .  71
+RFC-all\rfc3010.txt:   15.  NFS Version 4 Callback Procedures . . . . . . . . . . . . . 170
+RFC-all\rfc3010.txt:   structured so that an RPC callback mechanism is not required.  This
+RFC-all\rfc3010.txt:   client and recall the delegation.  This requires that a callback path
+RFC-all\rfc3010.txt:   exist between the server and client.  If this callback path does not
+RFC-all\rfc3010.txt:3.4.  Callback RPC Authentication
+RFC-all\rfc3010.txt:   The callback RPC (described later) must mutually authenticate the NFS
+RFC-all\rfc3010.txt:   callback even if the client used LIPKEY for SETCLIENTID.
+RFC-all\rfc3010.txt:   receives the callback).
+RFC-all\rfc3010.txt:   It should be noted that LIPKEY may not work for callbacks, since the
+RFC-all\rfc3010.txt:   the callback can authenticate the NFS server's user name/password
+RFC-all\rfc3010.txt:   o  When the server does a callback, it must authenticate to the
+RFC-all\rfc3010.txt:   4 protocol must not rely on a callback mechanism and therefore is
+RFC-all\rfc3010.txt:9.2.  Delegation and Callbacks
+RFC-all\rfc3010.txt:   "callback" RPC from server to client, a server recalls delegated
+RFC-all\rfc3010.txt:   Because callback RPCs may not work in all environments (due to
+RFC-all\rfc3010.txt:   on them.  Preliminary testing of callback functionality by means of a
+RFC-all\rfc3010.txt:   CB_NULL procedure determines whether callbacks can be supported.  The
+RFC-all\rfc3010.txt:   CB_NULL procedure checks the continuity of the callback path.  A
+RFC-all\rfc3010.txt:   server makes a preliminary assessment of callback availability to a
+RFC-all\rfc3010.txt:   determined that callbacks are supported.  Because the granting of a
+RFC-all\rfc3010.txt:   will cause the server to recall a delegation through a callback.
+RFC-all\rfc3010.txt:   respond to a recall callback. In this case, the server will revoke
+RFC-all\rfc3010.txt:   o  Network partition (full or callback-only)
+RFC-all\rfc3010.txt:   o  The use of callbacks is not to be depended upon until the client
+RFC-all\rfc3010.txt:   A loss of the callback path (e.g. by later network configuration
+RFC-all\rfc3010.txt:   o  The client must be able to respond to the server's callback
+RFC-all\rfc3010.txt:      callback ability.
+RFC-all\rfc3010.txt:   The server will use a CB_GETATTR callback, if the GETATTR attribute
+RFC-all\rfc3010.txt:   The NFS4_CALLBACK program is used to provide server to client
+RFC-all\rfc3010.txt:   NFS4_CALLBACK program.  There is no predefined RPC program number for
+RFC-all\rfc3010.txt:   the NFS4_CALLBACK program.  It is up to the client to specify a
+RFC-all\rfc3010.txt:   port number of the NFS4_CALLBACK program are provided by the client
+RFC-all\rfc3010.txt:      client, callback -> clientid, setclientid_confirm
+RFC-all\rfc3010.txt:              cb_client4      callback;
+RFC-all\rfc3010.txt:      The callback information provided in this operation will be used
+RFC-all\rfc3010.txt:      numbers for the callback program at the time SETCLIENTID is used.
+RFC-all\rfc3010.txt:15.  NFS Version 4 Callback Procedures
+RFC-all\rfc3010.txt:   The procedures used for callbacks are defined in the following
+RFC-all\rfc3010.txt:   an individual callback RPC, the sense of these terms would be
+RFC-all\rfc3010.txt:      callback procedures into a single RPC request.  The main callback
+RFC-all\rfc3010.txt:      The client should reply to the callback immediately.  Replying
+RFC-all\rfc3010.txt:    * Callback program info as provided by the client
+RFC-all\rfc3010.txt:           cb_client4      callback;
+RFC-all\rfc3010.txt:    * NFS4 Callback Procedure Definitions and Program
+RFC-all\rfc3010.txt:   program NFS4_CALLBACK {
+RFC-all\rfc3124.txt:   1. Callback-based transmission.  The callback-based transmission API
+RFC-all\rfc3124.txt:   the rate, the CM MUST invoke a callback using cmapp_send(), which is
+RFC-all\rfc3124.txt:   a grant for the stream to send up to PMTU bytes.  The callback-style
+RFC-all\rfc3124.txt:   cm_request(int k).  The cmapp_send callback for this request is
+RFC-all\rfc3124.txt:   and callbacks made.
+RFC-all\rfc3124.txt:   2. Synchronous-style.  The above callback-based API accommodates a
+RFC-all\rfc3124.txt:   rate).  While CM callbacks could be configured to periodically
+RFC-all\rfc3124.txt:   periodicity and granularity of its callbacks.  Thus, the CM MUST
+RFC-all\rfc3124.txt:   callback function, where newrate is the new rate in bits per second
+RFC-all\rfc3124.txt:   To avoid unnecessary cmapp_update() callbacks that the application
+RFC-all\rfc3124.txt:   execution.  In response, the CM SHOULD invoke the callback only when
+RFC-all\rfc3124.txt:   the benefit of the cm_request() callback API for TCP will become
+RFC-all\rfc3124.txt:   the callback-based primitive.  Section 6.1.2 describes how
+RFC-all\rfc3124.txt:   cmapp_send() callback function.  The application MUST NOT send data
+RFC-all\rfc3124.txt:   based on this callback after this time has expired.  Furthermore, if
+RFC-all\rfc3124.txt:   callback, it SHOULD call cm_notify(stream_info, 0) to allow the CM to
+RFC-all\rfc3124.txt:   callback API.  TCP only identifies which data it should send upon the
+RFC-all\rfc3124.txt:   sent from its cmapp_send() callback, TCP updates its tcp_ownd value.
+RFC-all\rfc3124.txt:      4. The cmapp_send() callback for TCP is set to an output routine.
+RFC-all\rfc3124.txt:   callbacks from the CM.  When a CM UDP socket is created, it is bound
+RFC-all\rfc3124.txt:   The application also implements the cmapp_update() callback.  When
+RFC-all\rfc3169.txt:      -  Callback to a pre-determined phone number
+RFC-all\rfc3261.txt:   about the time of callback.  An optional "duration" parameter
+RFC-all\rfc3265.txt:   callback services (based on terminal state events), buddy lists
+RFC-all\rfc3323.txt:   One way to accomplish this is to procure an 'anonymous callback' URI
+RFC-all\rfc3323.txt:   callback URIs to users in the same way that an ordinary SIP service
+RFC-all\rfc3530.txt:        3.4.  Callback RPC Authentication. . . . . . . . . . . . .   28
+RFC-all\rfc3530.txt:        9.2.   Delegation and Callbacks. . . . . . . . . . . . . .   94
+RFC-all\rfc3530.txt:   15.  NFS version 4 Callback Procedures  . . . . . . . . . . . .  225
+RFC-all\rfc3530.txt:                        Illegal Callback Operation . . . . . . . .  230
+RFC-all\rfc3530.txt:      to specify new client callback information.  Also added
+RFC-all\rfc3530.txt:      clarification of the callback information itself.
+RFC-all\rfc3530.txt:   structured so that an RPC callback mechanism is not required.  This
+RFC-all\rfc3530.txt:   client and recall the delegation.  This requires that a callback path
+RFC-all\rfc3530.txt:   exist between the server and client.  If this callback path does not
+RFC-all\rfc3530.txt:   clientid or as part of the callback registration.  The
+RFC-all\rfc3530.txt:   For callbacks from the server to the client, the same rules apply,
+RFC-all\rfc3530.txt:   but the server doing the callback becomes the client, and the client
+RFC-all\rfc3530.txt:   receiving the callback becomes the server.
+RFC-all\rfc3530.txt:3.4.  Callback RPC Authentication
+RFC-all\rfc3530.txt:   Except as noted elsewhere in this section, the callback RPC
+RFC-all\rfc3530.txt:   principal, so the callback from the server simply uses the AUTH_SYS
+RFC-all\rfc3530.txt:   server to use SPKM-3 and not LIPKEY for the callback even if the
+RFC-all\rfc3530.txt:   principal must be the same for the callback as it was for the
+RFC-all\rfc3530.txt:   version 4 client that receives the callback).
+RFC-all\rfc3530.txt:   It should be noted that LIPKEY may not work for callbacks, since the
+RFC-all\rfc3530.txt:   the callback can authenticate the NFS server's user name/password
+RFC-all\rfc3530.txt:   o  When the server does a callback, it must authenticate to the
+RFC-all\rfc3530.txt:   of establishing the information the server needs to make callbacks to
+RFC-all\rfc3530.txt:   4 protocol must not rely on a callback mechanism and therefore is
+RFC-all\rfc3530.txt:9.2.  Delegation and Callbacks
+RFC-all\rfc3530.txt:   "callback" RPC from server to client, a server recalls delegated
+RFC-all\rfc3530.txt:   Because callback RPCs may not work in all environments (due to
+RFC-all\rfc3530.txt:   on them.  Preliminary testing of callback functionality by means of a
+RFC-all\rfc3530.txt:   CB_NULL procedure determines whether callbacks can be supported.  The
+RFC-all\rfc3530.txt:   CB_NULL procedure checks the continuity of the callback path.  A
+RFC-all\rfc3530.txt:   server makes a preliminary assessment of callback availability to a
+RFC-all\rfc3530.txt:   determined that callbacks are supported.  Because the granting of a
+RFC-all\rfc3530.txt:   will cause the server to recall a delegation through a callback.
+RFC-all\rfc3530.txt:   respond to a recall callback.  In this case, the server will revoke
+RFC-all\rfc3530.txt:   o   Network partition (full or callback-only)
+RFC-all\rfc3530.txt:   o  The use of callbacks is not to be depended upon until the client
+RFC-all\rfc3530.txt:   A loss of the callback path (e.g., by later network configuration
+RFC-all\rfc3530.txt:   o  The client must be able to respond to the server's callback
+RFC-all\rfc3530.txt:      callback ability.
+RFC-all\rfc3530.txt:   a failure of the callback path from server to the client.  The client
+RFC-all\rfc3530.txt:   may be unaware of a failure in the callback path.  This lack of
+RFC-all\rfc3530.txt:   o  When the callback path is down, the server MUST NOT revoke the
+RFC-all\rfc3530.txt:      across callback path failures.  The client that wants to keep
+RFC-all\rfc3530.txt:      delegations in force across callback path failures must use RENEW
+RFC-all\rfc3530.txt:   The NFS4_CALLBACK program is used to provide server to client
+RFC-all\rfc3530.txt:   NFS4_CALLBACK program.  There is no predefined RPC program number for
+RFC-all\rfc3530.txt:   the NFS4_CALLBACK program.  It is up to the client to specify a
+RFC-all\rfc3530.txt:   port number of the NFS4_CALLBACK program are provided by the client
+RFC-all\rfc3530.txt:   when the server has determined that the callback path is down.  When
+RFC-all\rfc3530.txt:   callback path is down, it returns NFS4ERR_CB_PATH_DOWN.  Even though
+RFC-all\rfc3530.txt:   error other than NFS4ERR_CB_PATH_DOWN, even if the callback path is
+RFC-all\rfc3530.txt:     client, callback, callback_ident -> clientid, setclientid_confirm
+RFC-all\rfc3530.txt:             cb_client4      callback;
+RFC-all\rfc3530.txt:             uint32_t        callback_ident;
+RFC-all\rfc3530.txt:   intention to use a particular client identifier, callback, and
+RFC-all\rfc3530.txt:   callback_ident for subsequent requests that entail creating lock,
+RFC-all\rfc3530.txt:   use SETCLIENTID and SETCLIENTID_CONFIRM to modify the callback and
+RFC-all\rfc3530.txt:   callback_ident information but not the shorthand clientid.  In that
+RFC-all\rfc3530.txt:   The callback information provided in this operation will be used if
+RFC-all\rfc3530.txt:   numbers for the callback program at the time SETCLIENTID is used.
+RFC-all\rfc3530.txt:   The callback_ident value is used by the server on the callback.  The
+RFC-all\rfc3530.txt:   client can leverage the callback_ident to eliminate the need for more
+RFC-all\rfc3530.txt:   than one callback RPC program number, while still being able to
+RFC-all\rfc3530.txt:   determine which server is initiating the callback.
+RFC-all\rfc3530.txt:   k represent the value combination of the fields callback and
+RFC-all\rfc3530.txt:     callback_ident fields of the SETCLIENTID4args structure.
+RFC-all\rfc3530.txt:      recorded callback and callback_ident information for client { x }.
+RFC-all\rfc3530.txt:      recorded, the server treats this as a probable callback
+RFC-all\rfc3530.txt:      update callback value k to value l.  It's possible this request is
+RFC-all\rfc3530.txt:      one from the Byzantine router that has stale callback information,
+RFC-all\rfc3530.txt:      but this is not a problem.  The callback information update is
+RFC-all\rfc3530.txt:      from the server in the response to SETCLIENTID), a new callback
+RFC-all\rfc3530.txt:      callback_ident (as specified in the arguments to SETCLIENTID)
+RFC-all\rfc3530.txt:      client identifier, a new callback value, and a new callback_ident
+RFC-all\rfc3530.txt:      callback and callback_ident information for client { x } as
+RFC-all\rfc3530.txt:      relevant leased client state is removed and no recorded callback
+RFC-all\rfc3530.txt:      and callback_ident information for client { x } is changed.
+RFC-all\rfc3530.txt:      modifying recorded and confirmed callback and callback_ident
+RFC-all\rfc3530.txt:      client state and without changing recorded callback and
+RFC-all\rfc3530.txt:      callback_ident values for client { x }.
+RFC-all\rfc3530.txt:      leaves its callback and callback_ident values unmodified, and
+RFC-all\rfc3530.txt:      the callback state with k. The confirmed record { *, x, d, *, t }
+RFC-all\rfc3530.txt:      modify any recorded callback and callback_ident information for
+RFC-all\rfc3530.txt:15.  NFS version 4 Callback Procedures
+RFC-all\rfc3530.txt:   The procedures used for callbacks are defined in the following
+RFC-all\rfc3530.txt:   an individual callback RPC, the sense of these terms would be
+RFC-all\rfc3530.txt:             uint32_t        callback_ident;
+RFC-all\rfc3530.txt:   callback procedures into a single RPC request.  The main callback RPC
+RFC-all\rfc3530.txt:   The value of callback_ident is supplied by the client during
+RFC-all\rfc3530.txt:   SETCLIENTID.  The server must use the client supplied callback_ident
+RFC-all\rfc3530.txt:   The client should reply to the callback immediately.  Replying does
+RFC-all\rfc3530.txt:15.2.3.  Operation 10044: CB_ILLEGAL - Illegal Callback Operation
+RFC-all\rfc3530.txt:   fields to effectively communicate callback information between client
+RFC-all\rfc3530.txt:           NFS4ERR_CB_PATH_DOWN    = 10048 /* callback path down      */
+RFC-all\rfc3530.txt:    * Callback program info as provided by the client
+RFC-all\rfc3530.txt:           cb_client4      callback;
+RFC-all\rfc3530.txt:           uint32_t        callback_ident;
+RFC-all\rfc3530.txt:    * NFS4 Callback Procedure Definitions and Program
+RFC-all\rfc3530.txt:           uint32_t        callback_ident;
+RFC-all\rfc3530.txt:   program NFS4_CALLBACK {
+RFC-all\rfc3538.txt:   CallBackFunction   : O : This is not used in the SET/IOTP.
+RFC-all\rfc3538.txt:   CallBackLanguage   : O : This is not used in the SET/IOTP.
+RFC-all\rfc3538.txt:   CallBackFunction   : O : This is not used in the SET/IOTP.
+RFC-all\rfc3538.txt:   CallBackLanguage   : O : This is not used in the SET/IOTP.
+RFC-all\rfc3538.txt:   CallBackFunction  : O : This is not used in the current version
+RFC-all\rfc3538.txt:   CallBack          : O : This is not used in the current version
+RFC-all\rfc3539.txt:   (RTTavg, RTTdev) via callbacks.  RTO estimates are currently not
+RFC-all\rfc3539.txt:   available via the callback interface, though they probably should be.
+RFC-all\rfc3576.txt:   0-1       0        0    19   Callback-Number [Note 3]
+RFC-all\rfc3576.txt:   0-1       0        0    20   Callback-Id [Note 3]
+RFC-all\rfc3580.txt:       3.13. Callback-Number, Callback-ID . . . . . . . . . . . . . . 10
+RFC-all\rfc3580.txt:3.13.  Callback-Number, Callback-ID
+RFC-all\rfc3580.txt:                19   Callback-Number [RFC2865]
+RFC-all\rfc3580.txt:                20   Callback-Id [RFC2865]
+RFC-all\rfc3652.txt:   Clients may choose to implement a callback interface to allow new
+RFC-all\rfc3818.txt:                PPP LCP CALLBACK OPERATION FIELDS
+RFC-all\rfc3867.txt:     CallBack )>
+RFC-all\rfc3867.txt:     CallBackResponse )?)>
+RFC-all\rfc3867.txt:   CallBackFunction    A function which is called whenever there is
+RFC-all\rfc3867.txt:   CallBackLanguageList
+RFC-all\rfc3867.txt:     CallBackFunction  CDATA  #IMPLIED
+RFC-all\rfc3867.txt:     CallBackLanguageList  NMTOKENS  #IMPLIED >
+RFC-all\rfc3867.txt:     CallBackFunction  CDATA  #IMPLIED
+RFC-all\rfc3867.txt:     CallBackLanguageList  NMTOKENS  #IMPLIED >
+RFC-all\rfc3867.txt:     CallBackFunction  CDATA  #IMPLIED
+RFC-all\rfc3867.txt:     CallBackLanguageList  NMTOKENS  #IMPLIED >
+RFC-all\rfc3867.txt:     CallBackFunction  CDATA  #IMPLIED
+RFC-all\rfc3867.txt:     CallBackLanguageList  NMTOKENS  #IMPLIED >
+RFC-all\rfc3867.txt:   <!ELEMENT CallBack EMPTY >
+RFC-all\rfc3867.txt:   <!ATTLIST CallBack
+RFC-all\rfc3867.txt:   <!ELEMENT CallBackResponse EMPTY >
+RFC-all\rfc3867.txt:   <!ATTLIST CallBackResponse <!-- see below --> >
+RFC-all\rfc3939.txt:   the recipient to callback, or reply to, the sender of the message.
+RFC-all\rfc3958.txt:   o  use callbacks for the S-NAPTR processing; or
+RFC-all\rfc4005.txt:       6.2.  Callback-Number AVP  . . . . . . . . . . . . . . . . . . 32
+RFC-all\rfc4005.txt:       6.3.  Callback-Id AVP  . . . . . . . . . . . . . . . . . . . . 32
+RFC-all\rfc4005.txt:                       [ Callback-Number ]
+RFC-all\rfc4005.txt:                      [ Callback-Id ]
+RFC-all\rfc4005.txt:                      [ Callback-Number ]
+RFC-all\rfc4005.txt:                      [ Callback-Id ]
+RFC-all\rfc4005.txt:                      [ Callback-Number ]
+RFC-all\rfc4005.txt:   Callback-Number   19   6.2    UTF8String | M  |  P  |    |  V  | Y  |
+RFC-all\rfc4005.txt:   Callback-Id       20   6.3    UTF8String | M  |  P  |    |  V  | Y  |
+RFC-all\rfc4005.txt:       3  Callback Login
+RFC-all\rfc4005.txt:       4  Callback Framed
+RFC-all\rfc4005.txt:       9  Callback NAS Prompt
+RFC-all\rfc4005.txt:      11  Callback Administrative
+RFC-all\rfc4005.txt:      Callback Login      3
+RFC-all\rfc4005.txt:      Callback Framed     4
+RFC-all\rfc4005.txt:6.2.  Callback-Number AVP
+RFC-all\rfc4005.txt:   The Callback-Number AVP (AVP Code 19) is of type UTF8String and
+RFC-all\rfc4005.txt:   contains a dialing string to be used for callback.  It MAY be used in
+RFC-all\rfc4005.txt:   server that a Callback service is desired, but the server is not
+RFC-all\rfc4005.txt:6.3.  Callback-Id AVP
+RFC-all\rfc4005.txt:   The Callback-Id AVP (AVP Code 20) is of type UTF8String and contains
+RFC-all\rfc4005.txt:   This AVP is not roaming-friendly as it assumes that the Callback-Id
+RFC-all\rfc4005.txt:   is configured on the NAS.  Using the Callback-Number AVP therefore
+RFC-all\rfc4005.txt:   to "Framed" or "Callback Framed".
+RFC-all\rfc4005.txt:   "Login" or "Callback Login".
+RFC-all\rfc4005.txt:   Callback                      |     16    |   26      |
+RFC-all\rfc4005.txt:   Callback             NAS is terminating the current session
+RFC-all\rfc4005.txt:                        to perform callback for a new session.
+RFC-all\rfc4005.txt:   Callback-Id                   | 0   | 0-1 |
+RFC-all\rfc4005.txt:   Callback-Number               | 0-1 | 0-1 |
+RFC-all\rfc4005.txt:   Callback-Id                            | 0-1 | 0   |
+RFC-all\rfc4005.txt:   Callback-Number                        | 0-1 | 0   |
+RFC-all\rfc4005.txt:   Callback-Id                            | 0-1 | 0   |
+RFC-all\rfc4005.txt:   Callback-Number                        | 0-1 | 0   |
+RFC-all\rfc4072.txt:                                 [ Callback-Number ]
+RFC-all\rfc4072.txt:                                [ Callback-Id ]
+RFC-all\rfc4072.txt:                                [ Callback-Number ]
+RFC-all\rfc4072.txt:   Callback-Id [NASREQ]                |   0   |  0-1  |
+RFC-all\rfc4072.txt:   Callback-Number [NASREQ]            |  0-1  |  0-1  |
+RFC-all\rfc4072.txt:      Callback, various vendor-specific AVPs).
+RFC-all\rfc4072.txt:      number controlled by the attacker (callback AVPs).
+RFC-all\rfc4137.txt:   callback function).
+RFC-all\rfc4218.txt:      ("callbacks") in the reverse direction, or to refer to a 3rd party
+RFC-all\rfc4218.txt:   callbacks or referrals, note that for the end that has the ephemeral
+RFC-all\rfc4235.txt:      Automatic Callback: In this basic Public Switched Telephone
+RFC-all\rfc4235.txt:         busy.  User A would like to get a callback when user B hangs
+RFC-all\rfc4235.txt:   information to maintain privacy for services like automatic callback.
+RFC-all\rfc4416.txt:   restricted caller-ID information for such purposes as callback.
+RFC-all\rfc4474.txt:      A verifier could query the domain through some sort of callback
+RFC-all\rfc4838.txt:   methods for applications to register callback actions when certain
+RFC-all\rfc5042.txt:   multiple queues or even simple callbacks.  All vulnerabilities
+RFC-all\rfc5042.txt:   the Asynchronous Event Queue.  For example, a callback function may
+RFC-all\rfc5170.txt:    * NB: a callback function indicates to the caller that new symbol(s)
+RFC-all\rfc5170.txt:               decoded via a callback function;
+RFC-all\rfc5176.txt:   0-1       0        0    19   Callback-Number (Note 3)
+RFC-all\rfc5176.txt:   0-1       0        0    20   Callback-Id (Note 3)
+RFC-all\rfc5338.txt:   handles, long-lived application associations, callbacks, referrals,
+RFC-all\rfc5338.txt:   Callback:   The application at one end retrieves the IP address of
+RFC-all\rfc5338.txt:   for long-lived application associations, callbacks, and referrals,
+RFC-all\rfc5338.txt:   callbacks and referrals to possibly non-HIP-aware hosts.  However,
+RFC-all\rfc5351.txt:      The application client (pool user) can provide a callback function
+RFC-all\rfc5351.txt:      This callback function can execute any application-specific
+RFC-all\rfc5531.txt:                                      180025    csmagtcallbackprog
+RFC-all\rfc5533.txt:   callbacks or referrals, because both the Fully Qualified Domain Name
+RFC-all\rfc5533.txt:   o  Applications that perform referrals or callbacks using IP
+RFC-all\rfc5660.txt:      could be a "callback" function or "closure" registered as part of
+RFC-all\rfc5661.txt:      10.2. Delegation and Callbacks ................................196
+RFC-all\rfc5661.txt:      15.3. Callback Operations and Their Valid Errors ..............376
+RFC-all\rfc5661.txt:   19. NFSv4.1 Callback Procedures ..................................570
+RFC-all\rfc5661.txt:   20. NFSv4.1 Callback Operations ..................................574
+RFC-all\rfc5661.txt:      20.13. Operation 10044: CB_ILLEGAL - Illegal Callback
+RFC-all\rfc5661.txt:   When circumstances change, the lock is recalled via a callback
+RFC-all\rfc5661.txt:   NFSv4.1 also contains a considerable set of callback operations in
+RFC-all\rfc5661.txt:   which the server makes an RPC directed at the client.  Callback RPCs
+RFC-all\rfc5661.txt:   all minor versions of the NFSv4 protocol, there are two callback RPC
+RFC-all\rfc5661.txt:   of callback operations.
+RFC-all\rfc5661.txt:   The addition of new server and callback operations within the
+RFC-all\rfc5661.txt:   server requests and callback requests are performed within the
+RFC-all\rfc5661.txt:   3.  The NFSv4.1 callback model differs from NFSv4.0, and requires the
+RFC-all\rfc5661.txt:   o  Limited callback support, including no support for sending
+RFC-all\rfc5661.txt:      callbacks through firewalls, and races between replies to normal
+RFC-all\rfc5661.txt:      requests and callbacks.
+RFC-all\rfc5661.txt:      sending callback requests, thus solving the firewall issue
+RFC-all\rfc5661.txt:      callbacks caused by the requests are detected via the session's
+RFC-all\rfc5661.txt:   "callback_ident", which is superfluous in NFSv4.1 and MUST be ignored
+RFC-all\rfc5661.txt:   also includes other information needed to resolve callback races
+RFC-all\rfc5661.txt:   sending a request to the server or the client replying to a callback
+RFC-all\rfc5661.txt:   callback MAY arrive over a different session than that of the request
+RFC-all\rfc5661.txt:   that originally acquired the state pertaining to the callback.  For
+RFC-all\rfc5661.txt:   discuss the security considerations around callbacks.
+RFC-all\rfc5661.txt:   The backchannel is used for callback requests from server to client,
+RFC-all\rfc5661.txt:   retries) because some callback operations are nonidempotent.
+RFC-all\rfc5661.txt:   below).  With regard to callback channels, the client MUST allow the
+RFC-all\rfc5661.txt:   server to choose among all callback channels valid for a given client
+RFC-all\rfc5661.txt:   callbacks.
+RFC-all\rfc5661.txt:   If the requester is a server wanting to re-send a callback operation
+RFC-all\rfc5661.txt:2.10.6.3.  Resolving Server Callback Races
+RFC-all\rfc5661.txt:   It is possible for server callbacks to arrive at the client before
+RFC-all\rfc5661.txt:   between an erroneous or conflicting callback race condition.
+RFC-all\rfc5661.txt:   callback, the server SHOULD "remember" the { session ID, slot ID,
+RFC-all\rfc5661.txt:   server to provide this information in related callbacks, since it is
+RFC-all\rfc5661.txt:   The CB_SEQUENCE operation that begins each server callback carries a
+RFC-all\rfc5661.txt:   that the callback has raced the reply, and act accordingly.  If the
+RFC-all\rfc5661.txt:   are other scenarios under which callbacks may race replies.  Among
+RFC-all\rfc5661.txt:   addition, the CB_RECALL_SLOT callback operation (see Section 20.8)
+RFC-all\rfc5661.txt:2.10.8.1.  Session Callback Security
+RFC-all\rfc5661.txt:      flavor for callbacks, then it needs to be sure the RPCSEC_GSS
+RFC-all\rfc5661.txt:   for the client to accept callbacks.  The client does this via
+RFC-all\rfc5661.txt:2.10.13.1.1.  RPCSEC_GSS Context Loss by Callback Path
+RFC-all\rfc5661.txt:   callback use have expired, the client MUST establish a new handle via
+RFC-all\rfc5661.txt:   indicates when callback handles are nearly expired, or fully expired
+RFC-all\rfc5661.txt:   indicate when it has no callback connection via the sr_status_flags
+RFC-all\rfc5661.txt:   If there were callback requests outstanding at the time of a
+RFC-all\rfc5661.txt:   that of the original request, the callback target will recognize the
+RFC-all\rfc5661.txt:   callback operation, it is not subject to checking for a current seqid
+RFC-all\rfc5661.txt:   sent by the server to the client as part of a callback is required to
+RFC-all\rfc5661.txt:   notification by an appropriate operation response or callback.  Note
+RFC-all\rfc5661.txt:      receive callback requests.
+RFC-all\rfc5661.txt:      might have to address in order to allow callback requests to be
+RFC-all\rfc5661.txt:   provides a callback when a previously unavailable lock becomes
+RFC-all\rfc5661.txt:   client is requesting a blocking lock.  When the callback is not used,
+RFC-all\rfc5661.txt:   that CB_NOTIFY_LOCK callbacks might be done for the current open
+RFC-all\rfc5661.txt:   eliminated given a prompt callback, but it still needs to poll.  When
+RFC-all\rfc5661.txt:10.2.  Delegation and Callbacks
+RFC-all\rfc5661.txt:   "callback" RPC from server to client, a server recalls delegated
+RFC-all\rfc5661.txt:   will cause the server to recall a delegation through a callback.  For
+RFC-all\rfc5661.txt:   respond to a recall callback.  In this case, the server will revoke
+RFC-all\rfc5661.txt:   o  The use of callbacks should not be depended upon until the client
+RFC-all\rfc5661.txt:   o  The client must be able to respond to the server's callback
+RFC-all\rfc5661.txt:   via callbacks, when the delegations are not immediately available.
+RFC-all\rfc5661.txt:   The server will recall the directory delegation by sending a callback
+RFC-all\rfc5661.txt:   to the client.  It will use the same callback procedure as used for
+RFC-all\rfc5661.txt:   CB_LAYOUTRECALL callback operation (see Section 20.3) and returned
+RFC-all\rfc5661.txt:12.5.5.1.  Layout Recall Callback Robustness
+RFC-all\rfc5661.txt:   callback results in a LAYOUTRETURN or set of LAYOUTRETURNs that
+RFC-all\rfc5661.txt:   exactly match the range in the callback, since both client and server
+RFC-all\rfc5661.txt:   o  If conflicts that require callbacks are very rare, and a server
+RFC-all\rfc5661.txt:      can use a multi-file callback to recover per-client resources
+RFC-all\rfc5661.txt:      file basis, only sending whole-file callbacks even though clients
+RFC-all\rfc5661.txt:   send callbacks for layout ranges it has not granted to a client, and
+RFC-all\rfc5661.txt:   and callbacks.  It is the server's responsibility to avoid
+RFC-all\rfc5661.txt:   concerns callbacks.  The protocol must defend against races between
+RFC-all\rfc5661.txt:   the sessions mechanism for allowing the client to detect callback
+RFC-all\rfc5661.txt:   replies for these operations before sending the callback, the replies
+RFC-all\rfc5661.txt:   2.  The server sent the callback before receiving the LAYOUTGET.  The
+RFC-all\rfc5661.txt:   Most forward operations and all callback operations are only valid
+RFC-all\rfc5661.txt:   There is a problem contacting the client via the callback path.  The
+RFC-all\rfc5661.txt:   destroyed because the server has callback requests outstanding.
+RFC-all\rfc5661.txt:   The callback operation invoked to deal with a new delegation has
+RFC-all\rfc5661.txt:15.3.  Callback Operations and Their Valid Errors
+RFC-all\rfc5661.txt:   each callback operation.  The error code NFS4_OK (indicating no
+RFC-all\rfc5661.txt:   callback operations with the exception of CB_ILLEGAL.
+RFC-all\rfc5661.txt:         Valid Error Returns for Each Protocol Callback Operation
+RFC-all\rfc5661.txt:   | Callback Operation      | Errors                                  |
+RFC-all\rfc5661.txt:   The REQUIRED or OPTIONAL designation for callback operations sent by
+RFC-all\rfc5661.txt:   callback operations.  A partial exception is CB_RECALL_SLOT; the only
+RFC-all\rfc5661.txt:                            Callback Operations
+RFC-all\rfc5661.txt:   CB_GETATTR callback.  Second, the server, particularly when the
+RFC-all\rfc5661.txt:      CB_NOTIFY_LOCK callbacks for locks on this file.  This flag is a
+RFC-all\rfc5661.txt:   union callback_sec_parms4 switch (uint32_t cb_secflavor) {
+RFC-all\rfc5661.txt:           callback_sec_parms4     bca_sec_parms<>;
+RFC-all\rfc5661.txt:   The BACKCHANNEL_CTL operation replaces the backchannel's callback
+RFC-all\rfc5661.txt:           callback_sec_parms4     csa_sec_parms<>;
+RFC-all\rfc5661.txt:      that conveys callback requests originating from the server to the
+RFC-all\rfc5661.txt:      callbacks sent through the backchannel to the client.  The server
+RFC-all\rfc5661.txt:      an ONC RPC version number equal to 4 in callbacks sent to the
+RFC-all\rfc5661.txt:      callbacks for the session.  If AUTH_SYS is specified, then the
+RFC-all\rfc5661.txt:      client is authorizing the server to use AUTH_SYS on all callbacks,
+RFC-all\rfc5661.txt:      the credential of the RPC header of callbacks to the client.
+RFC-all\rfc5661.txt:      RPCSEC_GSS credential in callback RPCs.  That is, the value in
+RFC-all\rfc5661.txt:      the RPCSEC_GSS Security Protocol", of [4]) in callback RPCs.  The
+RFC-all\rfc5661.txt:       client initializes its reply cache for receiving callbacks in the
+RFC-all\rfc5661.txt:   Implementing RPCSEC_GSS callback support requires changes to both the
+RFC-all\rfc5661.txt:   stateid will appear in callback messages related to the delegation,
+RFC-all\rfc5661.txt:   operation, rather than via a callback.
+RFC-all\rfc5661.txt:   synchronous callbacks.  A server must support synchronous callbacks
+RFC-all\rfc5661.txt:   notification callbacks.  Of course if there are no remaining layouts
+RFC-all\rfc5661.txt:   delete a device ID without a notification callback, which will be the
+RFC-all\rfc5661.txt:   callback MUST be serialized with any outstanding, intersecting
+RFC-all\rfc5661.txt:   in response to a recall callback for all layouts.  It is possible
+RFC-all\rfc5661.txt:      SEQ4_STATUS_CB_PATH_DOWN.  First is that a callback operation that
+RFC-all\rfc5661.txt:      send a callback operation, but the connection was lost before the
+RFC-all\rfc5661.txt:      received the callback operation, and so, per rules on request
+RFC-all\rfc5661.txt:      retry, the server MUST retry the callback operation over the same
+RFC-all\rfc5661.txt:      and be notified via a callback when the delegation is available.
+RFC-all\rfc5661.txt:      callbacks.  If the server does not support registration of wants,
+RFC-all\rfc5661.txt:      by means of a callback, it will either provide the delegation
+RFC-all\rfc5661.txt:   server is making regarding future callbacks are the same as those
+RFC-all\rfc5661.txt:19.  NFSv4.1 Callback Procedures
+RFC-all\rfc5661.txt:   The procedures used for callbacks are defined in the following
+RFC-all\rfc5661.txt:   an individual callback RPC, the sense of these terms would be
+RFC-all\rfc5661.txt:   /* Callback operations new to NFSv4.1 */
+RFC-all\rfc5661.txt:           uint32_t        callback_ident;
+RFC-all\rfc5661.txt:   callback procedures into a single RPC request.  The main callback RPC
+RFC-all\rfc5661.txt:20.  NFSv4.1 Callback Operations
+RFC-all\rfc5661.txt:   The client SHOULD reply to the callback immediately.  Replying does
+RFC-all\rfc5661.txt:    * NFSv4.1 callback arguments and results
+RFC-all\rfc5661.txt:   they were sent, any such permutation of the callback stream is
+RFC-all\rfc5661.txt:   that callback has no effect.
+RFC-all\rfc5661.txt:   the point at which they start sending CB_RECALL_ANY callbacks
+RFC-all\rfc5661.txt:   client cache the reply in the callback reply cache.  The client MUST
+RFC-all\rfc5661.txt:   This callback is meant to be used by servers to help reduce the
+RFC-all\rfc5661.txt:   be able to acquire the lock.  If the server supports this callback
+RFC-all\rfc5661.txt:   the client receiving this callback cannot assume that it now has the
+RFC-all\rfc5661.txt:   The server is not required to implement this callback, and even if it
+RFC-all\rfc5661.txt:   Similarly, the client is not required to implement this callback, and
+RFC-all\rfc5661.txt:   NOT assume that the client will act based on the callback.
+RFC-all\rfc5661.txt:20.13.  Operation 10044: CB_ILLEGAL - Illegal Callback Operation
+RFC-all\rfc5662.txt:   ///  NFS4ERR_CB_PATH_DOWN   = 10048,/* callback path down      */
+RFC-all\rfc5662.txt:   ///  * Callback program info as provided by the client
+RFC-all\rfc5662.txt:   ///         cb_client4      callback;
+RFC-all\rfc5662.txt:   ///         uint32_t        callback_ident;
+RFC-all\rfc5662.txt:   /// union callback_sec_parms4 switch (uint32_t cb_secflavor) {
+RFC-all\rfc5662.txt:   ///         callback_sec_parms4     bca_sec_parms<>;
+RFC-all\rfc5662.txt:   ///         callback_sec_parms4     csa_sec_parms<>;
+RFC-all\rfc5662.txt:   ///  * NFS4 Callback Procedure Definitions and Program
+RFC-all\rfc5662.txt:   ///  * NFSv4.1 callback arguments and results
+RFC-all\rfc5662.txt:   /// %/* Callback operations new to NFSv4.1 */
+RFC-all\rfc5662.txt:   ///         uint32_t        callback_ident;
+RFC-all\rfc5662.txt:   /// program NFS4_CALLBACK {
+RFC-all\rfc5664.txt:   The metadata server can use the CB_RECALL_ANY callback operation to
+RFC-all\rfc5666.txt:   NFSv4 callbacks are processed by the NFSv4 client, acting as an RPC
+RFC-all\rfc5667.txt:      5.1. NFS Version 4 Callbacks ....................................7
+RFC-all\rfc5667.txt:5.1.  NFS Version 4 Callbacks
+RFC-all\rfc5667.txt:   The NFS version 4 protocols support server-initiated callbacks to
+RFC-all\rfc5667.txt:   delegations, etc.  These callbacks present no particular issue to
+RFC-all\rfc5667.txt:   being framed over RPC/RDMA, since such callbacks do not carry bulk
+RFC-all\rfc5667.txt:   via RDMA_MSG, or if the callback message or its reply overflow the
+RFC-all\rfc5667.txt:   negotiated buffer sizes for a callback connection, they MAY be
+RFC-all\rfc5667.txt:   One special case is noteworthy: in NFS version 4.1, the callback
+RFC-all\rfc5667.txt:   message on such a callback-eligible connection is an RPC CALL, before
+RFC-all\rfc5667.txt:   In the callback case, the XID present in the RPC/RDMA header will
+RFC-all\rfc5746.txt:   callbacks might get called multiple times).
+RFC-all\rfc5849.txt:        oauth_callback="http%3A%2F%2Fprinter.example.com%2Fready",
+RFC-all\rfc5849.txt:     oauth_callback_confirmed=true
+RFC-all\rfc5849.txt:   user-agent is redirected to the callback URI provided by the client
+RFC-all\rfc5849.txt:   The callback request informs the client that Jane completed the
+RFC-all\rfc5849.txt:   oauth_callback:  An absolute URI back to which the server will
+RFC-all\rfc5849.txt:                    the client is unable to receive callbacks or a
+RFC-all\rfc5849.txt:                    callback URI has been established via other means,
+RFC-all\rfc5849.txt:        oauth_callback="http%3A%2F%2Fclient.example.net%2Fcb%3Fx%3D1",
+RFC-all\rfc5849.txt:   oauth_callback_confirmed
+RFC-all\rfc5849.txt:     oauth_callback_confirmed=true
+RFC-all\rfc5849.txt:   the server redirects the resource owner to the callback URI if one
+RFC-all\rfc5849.txt:   was provided in the "oauth_callback" parameter or by other means.
+RFC-all\rfc5849.txt:   following REQUIRED parameters to the callback URI query component:
+RFC-all\rfc5849.txt:   If the callback URI already includes a query component, the server
+RFC-all\rfc5849.txt:   If the client did not provide a callback URI, the server SHOULD
+RFC-all\rfc5849.txt:   CSRF attacks on OAuth callback URIs hosted by clients are also
+RFC-all\rfc5849.txt:   possible.  Clients should prevent CSRF attacks on OAuth callback URIs
+RFC-all\rfc5850.txt:   Appendix A.3.  Automatic Callback  . . . . . . . . . . . . . . . . 32
+RFC-all\rfc5850.txt:Appendix A.3.  Automatic Callback
+RFC-all\rfc5850.txt:   In Automatic Callback [RFC5359], Alice calls Bob, but Bob is busy.
+RFC-all\rfc5929.txt:   For example, a TLS client implementation may provide a "callback"
+RFC-all\rfc5971.txt:         attribute via a MessageStatus callback.  This might take place
+RFC-all\rfc6046.txt:   peer with which it communicates, in order to support callback for
+RFC-all\rfc6046.txt:   callback".  When performing RID callback, a responding system MUST
+RFC-all\rfc6046.txt:   redirected callback.
+RFC-all\rfc6046.txt:   callback.  Note that all RID messages require a response from the
+RFC-all\rfc6046.txt:   immediate response or a callback.
+RFC-all\rfc6046.txt:   RID systems accepting a callback message in an HTTP Request MUST
+RFC-all\rfc6046.txt:    | Request RID type     | Callback | Result | Response RID type    |
+RFC-all\rfc6250.txt:   forward reachability, as well as callbacks (e.g., as used by the File
+RFC-all\rfc6281.txt:   answers.  The callback function for automatically updating tunnels is
+RFC-all\rfc6316.txt:      connections, callbacks, and referrals [SHIM6-APP-REFER].
+RFC-all\rfc6386.txt:   /*!\brief Callback function pointer / user data pair storage */
+RFC-all\rfc6386.txt:       callbacks */
+RFC-all\rfc6386.txt:       callbacks */
+RFC-all\rfc6386.txt:       /*!\brief put frame callback prototype
+RFC-all\rfc6386.txt:        * This callback is invoked by the decoder to notify the
+RFC-all\rfc6386.txt:        * \param[in] cb           Pointer to the callback function
+RFC-all\rfc6386.txt:        *     Callback successfully registered.
+RFC-all\rfc6386.txt:       /*!\brief put slice callback prototype
+RFC-all\rfc6386.txt:        * This callback is invoked by the decoder to notify the
+RFC-all\rfc6386.txt:        * \param[in] cb           Pointer to the callback function
+RFC-all\rfc6386.txt:        *     Callback successfully registered.
+RFC-all\rfc6386.txt:                                            callbacks */
+RFC-all\rfc6386.txt:                                            callbacks */
+RFC-all\rfc6386.txt:       /*!\brief put frame callback prototype
+RFC-all\rfc6386.txt:        * This callback is invoked by the decoder to notify the
+RFC-all\rfc6386.txt:        * \param[in] cb           Pointer to the callback function
+RFC-all\rfc6386.txt:        *     Callback successfully registered.
+RFC-all\rfc6386.txt:       /*!\brief put slice callback prototype
+RFC-all\rfc6386.txt:        * This callback is invoked by the decoder to notify the
+RFC-all\rfc6386.txt:        * \param[in] cb           Pointer to the callback function
+RFC-all\rfc6386.txt:        *     Callback successfully registered.
+RFC-all\rfc6392.txt:   owner authorizes the request, and finally (4) a callback is made to
+RFC-all\rfc6443.txt:   The INVITE request must also have appropriate callback identifiers
+RFC-all\rfc6443.txt:   wireline and wireless emergency calls include a callback identifier
+RFC-all\rfc6443.txt:   callbacks immediately by the call taker if, for example, the call is
+RFC-all\rfc6443.txt:   In addition, a callback identifier as an address of record (AoR) must
+RFC-all\rfc6443.txt:   identifier would be used to initiate a callback at a later time and
+RFC-all\rfc6443.txt:   be accepted as a callback from the PSAP if it occurs within a
+RFC-all\rfc6546.txt:   o  The RID-Callback-Token entity header field is added to allow
+RFC-all\rfc6546.txt:      matching of RID replies during callback, independent of the
+RFC-all\rfc6546.txt:   RID peer with which it communicates, in order to support callback for
+RFC-all\rfc6546.txt:   callback mechanism.  In this mechanism, the receiving RID system MAY
+RFC-all\rfc6546.txt:   return a 202 Accepted response, called a RID callback, instead of a
+RFC-all\rfc6546.txt:   RID message.  The RID callback MUST contain a zero-length entity body
+RFC-all\rfc6546.txt:   and a 'RID-Callback-Token' entity header field, itself containing a
+RFC-all\rfc6546.txt:   The RID-Callback-Token is an opaque, whitespace-free string of up to
+RFC-all\rfc6546.txt:   callback among all callbacks from the receiving RID system to the
+RFC-all\rfc6546.txt:   Callback-Token in ABNF [RFC5234] form is shown below:
+RFC-all\rfc6546.txt:   callback-token = 1*255(VCHAR)
+RFC-all\rfc6546.txt:   When performing RID callback, a responding system MUST connect to the
+RFC-all\rfc6546.txt:   sent; there is no mechanism in RID for redirected callback.  This
+RFC-all\rfc6546.txt:   callback SHOULD use TCP port 4590 unless configured to use a
+RFC-all\rfc6546.txt:   callback.  Note that all RID messages require a response from the
+RFC-all\rfc6546.txt:   immediate response or a callback.
+RFC-all\rfc6546.txt:     | Request RID type     | Callback | Result | Response RID type |
+RFC-all\rfc6629.txt:   It is worth noting that callbacks can benefit naturally from Shim6
+RFC-all\rfc6629.txt:   support.  In a callback, an application in B retrieves IP_A, the IP
+RFC-all\rfc6629.txt:   callbacks, and application referrals, and avoids management and
+RFC-all\rfc6665.txt:   callback services (based on terminal state events), buddy lists
+RFC-all\rfc6749.txt:         state between the request and callback.  The authorization
+RFC-all\rfc6749.txt:         state between the request and callback.  The authorization
+RFC-all\rfc6819.txt:   The "state" parameter is used to link requests and callbacks to
+RFC-all\rfc6819.txt:   sent by the browser to the callback endpoint can gain access to
+RFC-all\rfc6819.txt:      any redirect callback unless it is linked to an authorization
+RFC-all\rfc6881.txt:   10. Callbacks .....................................................18
+RFC-all\rfc6881.txt:        with the same registrar, to permit an immediate callback to the
+RFC-all\rfc6881.txt:10.  Callbacks
+RFC-all\rfc6881.txt:   SP-35:  Callbacks to the Contact header URI received within
+RFC-all\rfc6881.txt:      original call.  Such a callback would not necessarily reach the
+RFC-all\rfc6881.txt:      that would interfere with the ability of callbacks from the PSAP
+RFC-all\rfc6881.txt:   ED-69:  Callbacks SHOULD be determined by retaining the domain of the
+RFC-all\rfc6881.txt:      emergency call, then it should be assumed to be a callback.  The
+RFC-all\rfc6881.txt:      PSAP's domain.  Recognizing a callback from the domain of the PSAP
+RFC-all\rfc6881.txt:      to give the endpoint the ability to recognize a callback.
+RFC-all\rfc6897.txt:   REQ14:  An application should be able to register for callbacks to be
+RFC-all\rfc7009.txt:   callback  OPTIONAL.  The qualified name of a JavaScript function.
+RFC-all\rfc7009.txt:     callback=package.myCallback
+RFC-all\rfc7009.txt:     package.myCallback();
+RFC-all\rfc7009.txt:     package.myCallback({"error":"unsupported_token_type"});
+RFC-all\rfc7046.txt:          typedef void (*MembershipEventCallback)
+RFC-all\rfc7046.txt:          int registerEventCallback(MembershipEventCallback callback);
+RFC-all\rfc7090.txt:             Public Safety Answering Point (PSAP) Callback
+RFC-all\rfc7090.txt:   A call taker may trigger a callback to the emergency caller using the
+RFC-all\rfc7090.txt:   callback could, under certain circumstances, be treated like any
+RFC-all\rfc7090.txt:   callbacks to bypass authorization policies in order to reach the
+RFC-all\rfc7090.txt:   for the SIP Priority header field, called "psap-callback", to mark
+RFC-all\rfc7090.txt:   PSAP callbacks.
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   3. Callback Scenarios ..............................................5
+RFC-all\rfc7090.txt:   4. SIP PSAP Callback Indicator ....................................12
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   to initiate a callback to the emergency caller.  This is desirable in
+RFC-all\rfc7090.txt:   emergency caller is called a "PSAP callback".
+RFC-all\rfc7090.txt:   A PSAP callback may, however, be blocked by user-configured
+RFC-all\rfc7090.txt:   itself) cannot differentiate the PSAP callback from any other SIP
+RFC-all\rfc7090.txt:   PSAP callbacks in such a way that the chances of reaching the
+RFC-all\rfc7090.txt:   authorization policies.  Ideally, the PSAP callback has to relate to
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   callbacks was defined in Section 13 of [RFC6443].  The specification
+RFC-all\rfc7090.txt:      A UA may be able to determine a PSAP callback by examining the
+RFC-all\rfc7090.txt:      accepted as a callback from the PSAP if it occurs within a
+RFC-all\rfc7090.txt:3.  Callback Scenarios
+RFC-all\rfc7090.txt:   treatment of callbacks fails.  As explained in Section 1, a SIP
+RFC-all\rfc7090.txt:   entity examines an incoming PSAP callback by comparing the domain of
+RFC-all\rfc7090.txt:   handling.  Unless the two devices are synchronized, the callback
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   When a callback is sent from psap@example.com towards the emergency
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   being set up during the emergency call setup procedure.  A callback
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   callback sometime later leaves the same PSTN/VoIP gateway or that the
+RFC-all\rfc7090.txt:   callbacks.
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:4.  SIP PSAP Callback Indicator
+RFC-all\rfc7090.txt:   callback", for the SIP Priority header field defined in [RFC3261].
+RFC-all\rfc7090.txt:   associated with a PSAP callback SIP session.
+RFC-all\rfc7090.txt:   PSAP callback-specific procedures for the session or request.
+RFC-all\rfc7090.txt:   The PSAP callback-specific procedures may be applied by SIP-based
+RFC-all\rfc7090.txt:   receiving a call marked as a PSAP callback marked call, such as
+RFC-all\rfc7090.txt:   header field value "psap-callback".
+RFC-all\rfc7090.txt:       priority-value  =/  "psap-callback"
+RFC-all\rfc7090.txt:   The PSAP callback functionality described in this document allows
+RFC-all\rfc7090.txt:   the SIP Priority header value, "psap-callback", is supported by the
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   recognize and accept a callback from the PSAP if it occurs within a
+RFC-all\rfc7090.txt:   calling party identity is not needed since the callback may use a
+RFC-all\rfc7090.txt:   PSAP to decide whether a preferential treatment of callbacks should
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:   consequently the identification of a PSAP callback is less
+RFC-all\rfc7090.txt:   to verify whether the marked callback message indeed came from a
+RFC-all\rfc7090.txt:   VoIP providers MUST only give PSAP callbacks preferential treatment
+RFC-all\rfc7090.txt:   callback marking.  Thereby, the callback reverts to a normal call.
+RFC-all\rfc7090.txt:   callback mechanism, for example, to ensure that their support calls
+RFC-all\rfc7090.txt:   Finally, a PSAP callback MUST use the same media as the original
+RFC-all\rfc7090.txt:   callback must also attempt to establish a real-time communication
+RFC-all\rfc7090.txt:   certain media and hence using the same media for the callback avoids
+RFC-all\rfc7090.txt:   noise when subsequently the ringtone triggered by a PSAP callback
+RFC-all\rfc7090.txt:   This document adds the "psap-callback" value to the SIP "Priority
+RFC-all\rfc7090.txt:   of the newly defined "psap-callback" value is defined in Section 4.
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7090.txt:RFC 7090                      PSAP Callback                   April 2014
+RFC-all\rfc7118.txt:      The WebSocket API [WS-API] for web browsers only defines callbacks
+RFC-all\rfc7155.txt:           4.4.2. Callback-Number AVP ................................34
+RFC-all\rfc7155.txt:           4.4.3. Callback-Id AVP ....................................34
+RFC-all\rfc7155.txt:                          [ Callback-Number ]
+RFC-all\rfc7155.txt:                         [ Callback-Id ]
+RFC-all\rfc7155.txt:                         [ Callback-Number ]
+RFC-all\rfc7155.txt:                         [ Callback-Id ]
+RFC-all\rfc7155.txt:                         [ Callback-Number ]
+RFC-all\rfc7155.txt:   Callback-Number             4.4.2        | M  |  V  |
+RFC-all\rfc7155.txt:   Callback-Id                 4.4.3        | M  |  V  |
+RFC-all\rfc7155.txt:      Callback Login (3)
+RFC-all\rfc7155.txt:      Callback Framed (4)
+RFC-all\rfc7155.txt:4.4.2.  Callback-Number AVP
+RFC-all\rfc7155.txt:   The Callback-Number AVP (AVP Code 19) is of type UTF8String and
+RFC-all\rfc7155.txt:   contains a dialing string to be used for callback, the format of
+RFC-all\rfc7155.txt:   which is deployment specific.  The Callback-Number AVP MAY be used in
+RFC-all\rfc7155.txt:   server that a callback service is desired, but the server is not
+RFC-all\rfc7155.txt:4.4.3.  Callback-Id AVP
+RFC-all\rfc7155.txt:   The Callback-Id AVP (AVP Code 20) is of type UTF8String and contains
+RFC-all\rfc7155.txt:   This AVP is not roaming-friendly as it assumes that the Callback-Id
+RFC-all\rfc7155.txt:   is configured on the NAS.  Using the Callback-Number AVP
+RFC-all\rfc7155.txt:   "Callback Framed".
+RFC-all\rfc7155.txt:   "Login" or "Callback Login".
+RFC-all\rfc7155.txt:   Callback-Id                   | 0   | 0-1 |
+RFC-all\rfc7155.txt:   Callback-Number               | 0-1 | 0-1 |
+RFC-all\rfc7155.txt:      Callback-Id                            | 0-1 | 0   |
+RFC-all\rfc7155.txt:      Callback-Number                        | 0-1 | 0   |
+RFC-all\rfc7155.txt:   Callback-Id                            | 0-1 | 0   |
+RFC-all\rfc7155.txt:   Callback-Number                        | 0-1 | 0   |
+RFC-all\rfc7378.txt:              Patel, "Public Safety Answering Point (PSAP) Callback",
+RFC-all\rfc7406.txt:   To enable callbacks, SIP UAs SHOULD place a globally routable URI in
+RFC-all\rfc7462.txt:           6.2.4. Auto Callback ......................................12
+RFC-all\rfc7462.txt:      callback, not tied to any particular rendering.
+RFC-all\rfc7462.txt:            recall, auto callback, and hold recall.
+RFC-all\rfc7462.txt:6.2.4.  Auto Callback
+RFC-all\rfc7462.txt:   an automatic callback service [RFC6910].  When the user is available,
+RFC-all\rfc7462.txt:   - recall:callback
+RFC-all\rfc7462.txt:   service:recall:callback        RFC 7462   Recall due to callback
+RFC-all\rfc7530.txt:           3.3.3. Callback RPC Authentication ........................29
+RFC-all\rfc7530.txt:      10.2. Delegation and Callbacks ................................140
+RFC-all\rfc7530.txt:      13.3. Callback Operations and Their Valid Errors ..............200
+RFC-all\rfc7530.txt:   17. NFSv4 Callback Procedures ....................................306
+RFC-all\rfc7530.txt:   18. NFSv4 Callback Operations ....................................309
+RFC-all\rfc7530.txt:      18.3. Operation 10044: CB_ILLEGAL - Illegal Callback
+RFC-all\rfc7530.txt:   that an RPC callback mechanism is not required.  This is a departure
+RFC-all\rfc7530.txt:   client and recall the delegation.  This requires that a callback path
+RFC-all\rfc7530.txt:   exist between the server and client.  If this callback path does not
+RFC-all\rfc7530.txt:      callback information to the new server if state has been migrated.
+RFC-all\rfc7530.txt:      to specify new client callback information.  Also added
+RFC-all\rfc7530.txt:      clarification of the callback information itself.
+RFC-all\rfc7530.txt:   using a client ID or (2) as part of the callback registration.  The
+RFC-all\rfc7530.txt:   callback address; it includes the program number and client address.
+RFC-all\rfc7530.txt:   For callbacks from the server to the client, the same rules apply,
+RFC-all\rfc7530.txt:   but the server doing the callback becomes the client, and the client
+RFC-all\rfc7530.txt:   receiving the callback becomes the server.
+RFC-all\rfc7530.txt:3.3.3.  Callback RPC Authentication
+RFC-all\rfc7530.txt:   Except as noted elsewhere in this section, the callback RPC
+RFC-all\rfc7530.txt:   principal, so the callback from the server simply uses the AUTH_SYS
+RFC-all\rfc7530.txt:   principal must be the same for the callback as it was for the
+RFC-all\rfc7530.txt:   information the server needs to make callbacks to the client for the
+RFC-all\rfc7530.txt:   notification by an appropriate operation response or callback.
+RFC-all\rfc7530.txt:   protocol must not rely on a callback mechanism and therefore is
+RFC-all\rfc7530.txt:   A client SHOULD re-establish new callback information with the new
+RFC-all\rfc7530.txt:10.2.  Delegation and Callbacks
+RFC-all\rfc7530.txt:   "callback" RPC from server to client, a server recalls delegated
+RFC-all\rfc7530.txt:   Because callback RPCs may not work in all environments (due to
+RFC-all\rfc7530.txt:   on them.  Preliminary testing of callback functionality by means of a
+RFC-all\rfc7530.txt:   CB_NULL procedure determines whether callbacks can be supported.  The
+RFC-all\rfc7530.txt:   CB_NULL procedure checks the continuity of the callback path.  A
+RFC-all\rfc7530.txt:   server makes a preliminary assessment of callback availability to a
+RFC-all\rfc7530.txt:   determined that callbacks are supported.  Because the granting of a
+RFC-all\rfc7530.txt:   will cause the server to recall a delegation through a callback.
+RFC-all\rfc7530.txt:   respond to a recall callback.  In this case, the server will revoke
+RFC-all\rfc7530.txt:   o  Network partition (full or callback-only)
+RFC-all\rfc7530.txt:   o  The use of callbacks is not to be depended upon until the client
+RFC-all\rfc7530.txt:   A loss of the callback path (e.g., by a later network configuration
+RFC-all\rfc7530.txt:   o  The client must be able to respond to the server's callback
+RFC-all\rfc7530.txt:      callback ability.
+RFC-all\rfc7530.txt:   failed callback path, the server should periodically probe the client
+RFC-all\rfc7530.txt:   a failure of the callback path from the server to the client.  The
+RFC-all\rfc7530.txt:   client may be unaware of a failure in the callback path.  This lack
+RFC-all\rfc7530.txt:   o  When the callback path is down, the server MUST NOT revoke the
+RFC-all\rfc7530.txt:      across callback path failures.  The client that wants to keep
+RFC-all\rfc7530.txt:      delegations in force across callback path failures must use RENEW
+RFC-all\rfc7530.txt:   There is a problem contacting the client via the callback path.
+RFC-all\rfc7530.txt:13.3.  Callback Operations and Their Valid Errors
+RFC-all\rfc7530.txt:   each callback operation.  The error code NFS4_OK (indicating no
+RFC-all\rfc7530.txt:   callback operations, with the exception of CB_ILLEGAL.
+RFC-all\rfc7530.txt:   | Callback    | Errors                                              |
+RFC-all\rfc7530.txt:     Table 8: Valid Error Returns for Each Protocol Callback Operation
+RFC-all\rfc7530.txt:   The NFS4_CALLBACK program is used to provide server-to-client
+RFC-all\rfc7530.txt:   NFS4_CALLBACK program.  There is no predefined RPC program number for
+RFC-all\rfc7530.txt:   the NFS4_CALLBACK program.  It is up to the client to specify a
+RFC-all\rfc7530.txt:   port numbers of the NFS4_CALLBACK program are provided by the client
+RFC-all\rfc7530.txt:   CB_GETATTR callback.  Second, the server, particularly when the
+RFC-all\rfc7530.txt:   when the server has determined that the callback path is down.  When
+RFC-all\rfc7530.txt:   callback path is down, it returns NFS4ERR_CB_PATH_DOWN.  Even though
+RFC-all\rfc7530.txt:   error other than NFS4ERR_CB_PATH_DOWN, even if the callback path is
+RFC-all\rfc7530.txt:     client, callback, callback_ident -> clientid, setclientid_confirm
+RFC-all\rfc7530.txt:           cb_client4      callback;
+RFC-all\rfc7530.txt:           uint32_t        callback_ident;
+RFC-all\rfc7530.txt:   intention to use a particular client identifier, callback, and
+RFC-all\rfc7530.txt:   callback_ident for subsequent requests that entail creating lock,
+RFC-all\rfc7530.txt:   SETCLIENTID and SETCLIENTID_CONFIRM to modify the callback and
+RFC-all\rfc7530.txt:   callback_ident information but not the shorthand client ID.  In that
+RFC-all\rfc7530.txt:   The callback information provided in this operation will be used if
+RFC-all\rfc7530.txt:   numbers for the callback program at the time SETCLIENTID is used.
+RFC-all\rfc7530.txt:   The callback_ident value is used by the server on the callback.  The
+RFC-all\rfc7530.txt:   client can leverage the callback_ident to eliminate the need for more
+RFC-all\rfc7530.txt:   than one callback RPC program number, while still being able to
+RFC-all\rfc7530.txt:   determine which server is initiating the callback.
+RFC-all\rfc7530.txt:   k  represent the value combination of the callback and callback_ident
+RFC-all\rfc7530.txt:      recorded callback and callback_ident information for client { x }.
+RFC-all\rfc7530.txt:      and recorded, the server treats this as a probable callback
+RFC-all\rfc7530.txt:      update callback value k to value l.  It's possible this request is
+RFC-all\rfc7530.txt:      one from the Byzantine router that has stale callback information,
+RFC-all\rfc7530.txt:      but this is not a problem.  The callback information update is
+RFC-all\rfc7530.txt:      from the server in the response to SETCLIENTID), a new callback
+RFC-all\rfc7530.txt:      callback_ident value (as specified in the arguments to
+RFC-all\rfc7530.txt:      client identifier; a new callback value; and a new callback_ident
+RFC-all\rfc7530.txt:      callback and callback_ident information for client { x } as
+RFC-all\rfc7530.txt:      relevant leased client state is removed and no recorded callback
+RFC-all\rfc7530.txt:      and callback_ident information for client { x } is changed.
+RFC-all\rfc7530.txt:      modifying recorded and confirmed callback and callback_ident
+RFC-all\rfc7530.txt:      client state, and without changing recorded callback and
+RFC-all\rfc7530.txt:      callback_ident values for client { x }.
+RFC-all\rfc7530.txt:      leaves its callback and callback_ident values unmodified, and
+RFC-all\rfc7530.txt:      callback state with k.  The confirmed record { *, x, d, *, t } is
+RFC-all\rfc7530.txt:      modify any recorded callback and callback_ident information for
+RFC-all\rfc7530.txt:17.  NFSv4 Callback Procedures
+RFC-all\rfc7530.txt:   The procedures used for callbacks are defined in the following
+RFC-all\rfc7530.txt:   an individual callback RPC, the sense of these terms would be
+RFC-all\rfc7530.txt:           uint32_t        callback_ident;
+RFC-all\rfc7530.txt:   callback procedures into a single RPC request.  The main callback RPC
+RFC-all\rfc7530.txt:   The value of callback_ident is supplied by the client during
+RFC-all\rfc7530.txt:   SETCLIENTID.  The server must use the client-supplied callback_ident
+RFC-all\rfc7530.txt:18.  NFSv4 Callback Operations
+RFC-all\rfc7530.txt:   The client should reply to the callback immediately.  Replying does
+RFC-all\rfc7530.txt:18.3.  Operation 10044: CB_ILLEGAL - Illegal Callback Operation
+RFC-all\rfc7531.txt:    ///  NFS4ERR_CB_PATH_DOWN   = 10048 /* callback path down       */
+RFC-all\rfc7531.txt:    ///  * Callback program info as provided by the client
+RFC-all\rfc7531.txt:    ///         cb_client4      callback;
+RFC-all\rfc7531.txt:    ///         uint32_t        callback_ident;
+RFC-all\rfc7531.txt:    ///  * NFS4 callback procedure definitions and program
+RFC-all\rfc7531.txt:    ///         uint32_t        callback_ident;
+RFC-all\rfc7531.txt:    /// program NFS4_CALLBACK {
+RFC-all\rfc7591.txt:        "https://client.example.org/callback",
+RFC-all\rfc7591.txt:        "https://client.example.org/callback2"],
+RFC-all\rfc7591.txt:      "redirect_uris": ["https://client.example.org/callback",
+RFC-all\rfc7591.txt:         "https://client.example.org/callback2"],
+RFC-all\rfc7591.txt:         "https://client.example.org/callback",
+RFC-all\rfc7591.txt:         "https://client.example.org/callback2"
+RFC-all\rfc7591.txt:        "https://client.example.org/callback",
+RFC-all\rfc7591.txt:        "https://client.example.org/callback2"],
+RFC-all\rfc7592.txt:        "https://client.example.org/callback",
+RFC-all\rfc7592.txt:        "https://client.example.org/callback",
+RFC-all\rfc7592.txt:        "https://client.example.org/callback2"],
+RFC-all\rfc7690.txt:         def icmp6_callback(pkt):
+RFC-all\rfc7690.txt:             sniff(prn=icmp6_callback, filter="icmp6 \
+RFC-all\rfc7852.txt:      this contact information is not used by PSAPs for callbacks (a
+RFC-all\rfc7852.txt:      field set to 'psap-callback', as described in [RFC7090]).
+RFC-all\rfc7852.txt:      no callback number or it isn't usable, the PSAP might need to try
+RFC-all\rfc7852.txt:              Patel, "Public Safety Answering Point (PSAP) Callback",
+RFC-all\rfc7861.txt:   There may be interactions with NFSv4's callback security scheme and
+RFC-all\rfc7861.txt:   Specifically, the NFSv4 callback scheme requires that the server
+RFC-all\rfc7861.txt:   callback security scheme seems particularly unlikely to work well.
+RFC-all\rfc7861.txt:   context handle to protect server-initiated callback RPCs.  The
+RFC-all\rfc7861.txt:   NFSv4.1 callback security scheme lacks all the problems of the NFSv4
+RFC-all\rfc7861.txt:   RPCSEC_GSS context handle to protect any callbacks.  Specifically, it
+RFC-all\rfc7861.txt:   authenticate the client to protect any callbacks related to server
+RFC-all\rfc7862.txt:      11.3. New Callback Operations and Their Valid Errors ...........53
+RFC-all\rfc7862.txt:   16. NFSv4.2 Callback Operations ...................................98
+RFC-all\rfc7862.txt:   the results using a CB_OFFLOAD callback operation.  If the copy is
+RFC-all\rfc7862.txt:   the copy, the server performs a callback to the client and reports
+RFC-all\rfc7862.txt:   a wr_callback_id, then this is an asynchronous copy and the
+RFC-all\rfc7862.txt:   wr_callback_id must also must be annotated to the copy_to_auth
+RFC-all\rfc7862.txt:   OFFLOAD_STATUS MUST be the same as the wr_callback_id specified in
+RFC-all\rfc7862.txt:   be the same as the wr_callback_id specified in the copy_to_auth
+RFC-all\rfc7862.txt:11.3.  New Callback Operations and Their Valid Errors
+RFC-all\rfc7862.txt:   each new NFSv4.2 callback operation.  The error code NFS4_OK
+RFC-all\rfc7862.txt:   returnable by all new callback operations.  The error values for all
+RFC-all\rfc7862.txt:   other callback operations are defined in Section 15.3 of [RFC5661].
+RFC-all\rfc7862.txt:   | Callback   | Errors                                               |
+RFC-all\rfc7862.txt:   Table 3: Valid Error Returns for Each New Protocol Callback Operation
+RFC-all\rfc7862.txt:   The REQUIRED or OPTIONAL designation for callback operations sent by
+RFC-all\rfc7862.txt:   callback operations.  A partial exception is CB_RECALL_SLOT; the only
+RFC-all\rfc7862.txt:                       Table 6: Callback Operations
+RFC-all\rfc7862.txt:   in LAYOUTGET results or the CB_NOTIFY_DEVICEID callback operation.
+RFC-all\rfc7862.txt:           stateid4        wr_callback_id<1>;
+RFC-all\rfc7862.txt:   If the wr_callback_id is returned, this indicates that an
+RFC-all\rfc7862.txt:   asynchronous COPY operation was initiated and a CB_OFFLOAD callback
+RFC-all\rfc7862.txt:   will deliver the final results of the operation.  The wr_callback_id
+RFC-all\rfc7862.txt:   given the option of returning the results in a callback because the
+RFC-all\rfc7862.txt:   If no wr_callback_id is returned, the operation completed
+RFC-all\rfc7862.txt:   synchronously and no callback will be issued by the server.  The
+RFC-all\rfc7862.txt:   callback in order to perform the retried I/O.
+RFC-all\rfc7862.txt:           stateid4        wr_callback_id<1>;
+RFC-all\rfc7862.txt:   results.  If wr_callback_id is set, it indicates an asynchronous
+RFC-all\rfc7862.txt:   stateid in wr_callback_id to be that of the wsa_stateid.  If it does
+RFC-all\rfc7862.txt:   not set the wr_callback_id, then the result is synchronous.
+RFC-all\rfc7862.txt:16.  NFSv4.2 Callback Operations
+RFC-all\rfc7862.txt:           stateid4        wr_callback_id<1>;
+RFC-all\rfc7862.txt:   indicates success or failure.  The coa_resok4.wr_callback_id MUST NOT
+RFC-all\rfc7862.txt:   transaction on the forechannel and the CB_OFFLOAD callback on the
+RFC-all\rfc7863.txt:   ///  NFS4ERR_CB_PATH_DOWN   = 10048, /* callback path down        */
+RFC-all\rfc7863.txt:   ///         stateid4        wr_callback_id<1>;
+RFC-all\rfc7863.txt:   ///  * Callback program info as provided by the client
+RFC-all\rfc7863.txt:   ///         cb_client4      callback;
+RFC-all\rfc7863.txt:   ///         uint32_t        callback_ident;
+RFC-all\rfc7863.txt:   /// union callback_sec_parms4 switch (uint32_t cb_secflavor) {
+RFC-all\rfc7863.txt:   ///         callback_sec_parms4     bca_sec_parms<>;
+RFC-all\rfc7863.txt:   ///         callback_sec_parms4     csa_sec_parms<>;
+RFC-all\rfc7863.txt:   ///  * NFS4 callback procedure definitions and program
+RFC-all\rfc7863.txt:   ///  * NFSv4.1 callback arguments and results
+RFC-all\rfc7863.txt:   /// %/* Callback operations new to NFSv4.1 */
+RFC-all\rfc7863.txt:   /// %/* Callback operations new to NFSv4.2 */
+RFC-all\rfc7863.txt:   ///         uint32_t        callback_ident;
+RFC-all\rfc7863.txt:   /// program NFS4_CALLBACK {
+RFC-all\rfc7931.txt:   make callbacks to the client for the purpose of supporting
+RFC-all\rfc7931.txt:   as callback.cb_location within the callback parameters.  We call the
+RFC-all\rfc7931.txt:   This choice of callback parameters is provisional and reflects the
+RFC-all\rfc7931.txt:   the appropriate callback parameters, reflecting observed trunking
+RFC-all\rfc7931.txt:   new clientid4 on a previously unknown server or changed the callback
+RFC-all\rfc7931.txt:   o  A SETCLIENTID is done to update the callback parameters to reflect
+RFC-all\rfc7931.txt:      server whose lead IP address is IPn.  The specific callback
+RFC-all\rfc7931.txt:      parameters chosen, in terms of cb_client4 and callback_ident, are
+RFC-all\rfc7931.txt:      up to the client and should reflect its preferences as to callback
+RFC-all\rfc7931.txt:      also that the callback update procedure can be repeated multiple
+RFC-all\rfc7931.txt:      callback updates are to be confirmed, they will be confirmed by
+RFC-all\rfc7931.txt:      recognized as a distinct server.  Its callback parameters will
+RFC-all\rfc7931.txt:   creation of a confirmed client record with empty callback information
+RFC-all\rfc7931.txt:   In such cases, the client SHOULD re-establish new callback
+RFC-all\rfc7931.txt:   the proper callback information and find out, as part of the process,
+RFC-all\rfc7931.txt:     client, callback, callback_ident -> clientid, setclientid_confirm
+RFC-all\rfc7931.txt:           cb_client4      callback;
+RFC-all\rfc7931.txt:           uint32_t        callback_ident;
+RFC-all\rfc7931.txt:   intention to use a particular client identifier, callback, and
+RFC-all\rfc7931.txt:   callback_ident for subsequent requests that entail creating lock,
+RFC-all\rfc7931.txt:   callback and callback_ident information but not the shorthand client
+RFC-all\rfc7931.txt:   The callback information provided in this operation will be used if
+RFC-all\rfc7931.txt:   numbers for the callback program at the time SETCLIENTID is used.
+RFC-all\rfc7931.txt:   The callback_ident value is used by the server on the callback.  The
+RFC-all\rfc7931.txt:   client can leverage the callback_ident to eliminate the need for more
+RFC-all\rfc7931.txt:   than one callback RPC program number, while still being able to
+RFC-all\rfc7931.txt:   determine which server is initiating the callback.
+RFC-all\rfc7931.txt:   k  represent the value combination of the callback and callback_ident
+RFC-all\rfc7931.txt:      recorded callback and callback_ident information for client { x }.
+RFC-all\rfc7931.txt:      and recorded, the server treats this as a probable callback
+RFC-all\rfc7931.txt:      update callback value k to value l.  It's possible this request is
+RFC-all\rfc7931.txt:      one from the Byzantine router that has stale callback information,
+RFC-all\rfc7931.txt:      but this is not a problem.  The callback information update is
+RFC-all\rfc7977.txt:   The WebSocket API [WS-API] for web browsers only defines callbacks to
+RFC-all\rfc8095.txt:   response, callbacks can be registered that will be invoked when the
+RFC-all\rfc8095.txt:   registration of callbacks when a server requests client
+RFC-all\rfc8147.txt:         networks.)  A callback from a PSAP merits additional
+RFC-all\rfc8147.txt:         verifying that such a call is indeed a callback from a PSAP in
+RFC-all\rfc8147.txt:         discussion in Section 11 and the PSAP Callback document
+RFC-all\rfc8147.txt:              Patel, "Public Safety Answering Point (PSAP) Callback",
+RFC-all\rfc8166.txt:   callback operations, described in [RFC8167].
+RFC-all\rfc8167.txt:   for NFS version 4.x callback operation is additionally required (see
+RFC-all\rfc8167.txt:3.1.  NFS Version 4.0 Callback Operation
+RFC-all\rfc8167.txt:   callback operations, or "callbacks", in Section 10.2 of [RFC7530].
+RFC-all\rfc8167.txt:   service.  Callbacks flow in the forward direction on a connection
+RFC-all\rfc8167.txt:   established between the server's callback client and the client's
+RFC-all\rfc8167.txt:   callback service.  This connection is distinct from connections being
+RFC-all\rfc8167.txt:   client typically provides a TCP-based callback service.  The client's
+RFC-all\rfc8167.txt:   SETCLIENTID operation advertises the callback service endpoint with a
+RFC-all\rfc8167.txt:3.2.  NFS Version 4.1 Callback Operation
+RFC-all\rfc8167.txt:   version 4.0 and extends the callback mechanism to manage pNFS
+RFC-all\rfc8167.txt:   4.1 clients.  Therefore, NFS version 4.1 servers send callbacks to
+RFC-all\rfc8167.txt:   4.1 relies on callbacks to manage pNFS layout state, pNFS operation
+RFC-all\rfc8167.txt:   server to perform callback operations.
+RFC-all\rfc8178.txt:   minor version being used by the server on callback requests.
+RFC-all\rfc8178.txt:   enumeration of operations and callback operations have a special
+RFC-all\rfc8178.txt:   sent by requesters (i.e., requests and callbacks), and responders
+RFC-all\rfc8178.txt:   (i.e., replies and callback replies).
+RFC-all\rfc8178.txt:   replies, callback, or callback replies.  Although all are valid XDR
+RFC-all\rfc8178.txt:      NFSv4 program or the callback program.
+RFC-all\rfc8178.txt:   callbacks in one of three ways.  Which of the following ways are
+RFC-all\rfc8178.txt:      server to infer that it is aware of a corresponding callback.
+RFC-all\rfc8178.txt:   then accept.  The server would use that variant to send callbacks
+RFC-all\rfc8178.txt:   o  Additions to the set of callback requests and extensions to the
+RFC-all\rfc8178.txt:      XDR for existing callback operations can only be made if the
+RFC-all\rfc8178.txt:      sending those new or extended callbacks.
+RFC-all\rfc8252.txt:   "GetCurrentApplicationCallbackUri" method.  While Windows enforces
+RFC-all\rfc8267.txt:     6.5.  NFS Callback Requests . . . . . . . . . . . . . . . . . .  13
+RFC-all\rfc8267.txt:6.5.  NFS Callback Requests
+RFC-all\rfc8267.txt:   callbacks to notify NFS version 4 clients of events such as recalled
+RFC-all\rfc8267.txt:6.5.1.  NFS Version 4.0 Callback
+RFC-all\rfc8267.txt:   connection to handle callback operations, even when the forward
+RFC-all\rfc8267.txt:   No operation in the NFS version 4.0 callback RPC program conveys a
+RFC-all\rfc8267.txt:   for contacting its NFS version 4.0 callback service using the
+RFC-all\rfc8267.txt:6.5.2.  NFS Version 4.1 Callback
+RFC-all\rfc8267.txt:   In NFS version 4.1 and newer minor versions, callback operations may
+RFC-all\rfc8267.txt:   There are no DDP-eligible data items in callback procedures defined
+RFC-all\rfc8267.txt:   in NFS versions 4.1 or 4.2.  However, some callback operations (such
+RFC-all\rfc8267.txt:      operation have replaced the previous treatment of callback
+RFC-all\rfc8276.txt:   callback or revoke the delegation.  See Section 18.7.4 of [RFC5661]
+RFC-all\rfc8276.txt:   through a callback.  For individual operations, we describe, under
+RFC-all\rfc8304.txt:   A callback-driven API to the network interface can be structured on
+RFC-all\rfc8433.txt:   callback", "recall due to call hold", and "recall due to transfer"
+RFC-all\rfc8433.txt:   callback" by this entry:
+RFC-all\rfc8433.txt:       recall due to callback          urn:alert:service:recall:callback
+RFC-all\rfc8433.txt:   then if the message contains urn:alert:service:recall:callback, the
+RFC-all\rfc8433.txt:   "recall due to callback" signal will be chosen instead of "recall
+RFC-all\rfc8433.txt:   has been forwarded) and "source recall callback" (a recall due to a
+RFC-all\rfc8433.txt:   callback).  This gives two expressed URNs:
+RFC-all\rfc8433.txt:       urn:alert:service:recall:callback
+RFC-all\rfc8433.txt:       Service:Recall:Callback
+RFC-all\rfc8434.txt:   recalling a layout:  a graceful recall, via a callback, of a specific
+RFC-all\rfc8435.txt:   recalling a layout:  a graceful recall, via a callback, of a specific
+RFC-all\rfc8435.txt:   The metadata server can use the CB_RECALL_ANY callback operation to
+RFC-all\rfc8473.txt:   [OASIS.saml-prof-2.0-os]) (no artifact, no callbacks), featuring the
