@@ -1,7 +1,7 @@
 ## CallStranger
 
 
-This script created by Yunus Çadırcı (https://twitter.com/yunuscadirci) to checkagainst CallStranger (CVE-2020-12695) vulnerability. An attacker can use this vulnerability for:
+This script created by Yunus Çadırcı (https://twitter.com/yunuscadirci) to check against CallStranger (CVE-2020-12695) vulnerability. An attacker can use this vulnerability for:
 * Bypassing DLP for exfiltrating data
 * Using millions of Internet-facing UPnP device as source of amplified reflected TCP DDoS / SYN Flood
 * Scanning internal ports from Internet facing UPnP devices
