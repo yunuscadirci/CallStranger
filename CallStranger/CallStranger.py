@@ -21,7 +21,7 @@ print( colored('/    \  \/\__  \ |  | |  |  \_____  \\   __\_  __ \__  \  /    \
 print( colored('\     \____/ __ \|  |_|  |__/        \|  |  |  | \// __ \|   |  \/ /_/  >  ___/|  | \/ ','green'))
 print( colored(' \______  (____  /____/____/_______  /|__|  |__|  (____  /___|  /\___  / \___  >__|    ','green'))
 print( colored('        \/     \/                  \/                  \/     \//_____/      \/        ','green'))
-print('This script created by Yunus Çadırcı (https://twitter.com/yunuscadirci) to checkagainst CallStranger (CVE-2020-12695) vulnerability. An attacker can use this vulnerability for:')
+print('This script created by Yunus Çadırcı (https://twitter.com/yunuscadirci) to check against CallStranger (CVE-2020-12695) vulnerability. An attacker can use this vulnerability for:')
 print('* Bypassing DLP for exfiltrating data')
 print('* Using millions of Internet-facing UPnP device as source of amplified reflected TCP DDoS / SYN Flood')
 print('* Scanning internal ports from Internet facing UPnP devices')
@@ -126,7 +126,7 @@ if len(devices)>0:
 				services.append(device.base_url+tmpservice.event_sub_url)
 			
 	print('\n','Total', len(services), 'service(s) found. do you want to continue to VERIFY if service(s) are vulnerable?')
-	print(colored('Be careful: This operation needs Internet access and may transfer data about devices over network. Data encrypted on local and we cant see which services are vulnerable but ISPs and other elements may be able to inspect HTTP headers created by UPnP device. Because most of UPnPstack do not allow SSL connection we can not use it. ','red'))
+	print(colored('Be careful: This operation needs Internet access and may transfer data about devices over network. Data encrypted on local and we can not see which services are vulnerable but ISPs and other elements may be able to inspect HTTP headers created by UPnP device. Because most of UPnPstack do not allow SSL connection we can not use it. ','red'))
 	if input('Do you want to continue? y/N ') == 'y':
 		
 		ss=getsession(StrangerHost+':'+StrangerPort+getSessionPath)
@@ -139,7 +139,7 @@ if len(devices)>0:
 			print('Calling stranger for ', serv, 'with',path)
 			subscribe(serv,path)
 			
-		print(colored('\n	Waiting 5 second for asynchronous request','yellow'))
+		print(colored('\n	Waiting 5 second for asynchronous requests','yellow'))
 		time.sleep(5) 
 		vulnerabilityconfirmationpath=StrangerHost+':'+StrangerPort+getVulnerableServicesPath+'&token='+ss
 		confirmvulnerableservices(vulnerabilityconfirmationpath,key)

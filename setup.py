@@ -17,7 +17,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7'
     ],
-    url='https://ww.callstranger.com',
+    url='https://www.callstranger.com',
     license='MIT',
     author='Yunus Çadırcı',
     author_email='yunuscadirci@yunuscadirci.com',
