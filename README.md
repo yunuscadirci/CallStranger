@@ -38,7 +38,7 @@ termcolor
 just navigate to CallStranger and
 
     python3 Callstranger.py
-	python3 CallDirect.py http://DeviceDocumentPathttp
+	python3 CallDirect.py http://DeviceDocumentPath
 	example: python3 CallDirect.py http://192.168.1.1:37215/upnpdev.xml
 
 ## How script works?
