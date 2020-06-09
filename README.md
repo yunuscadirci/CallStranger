@@ -38,10 +38,14 @@ termcolor
 
 just navigate to CallStranger and run with Python3 (Tested Python 3.7.5 on Windows 10, Python 3.8.2 on Kali 2020.2)
 For current subnet scan & test:
+
     python3 CallStranger.py
+	
 For single device test:
+
 	python3 CallDirect.py http://DeviceDocumentPath
-	example: python3 CallDirect.py http://192.168.1.1:37215/upnpdev.xml
+	
+example: python3 CallDirect.py http://192.168.1.1:37215/upnpdev.xml
 
 ## How script works?
 
