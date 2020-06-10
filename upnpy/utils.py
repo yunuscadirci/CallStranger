@@ -75,10 +75,11 @@ def make_http_request(url, data=None, headers=None):
     if not headers:
         headers = {}
 	
-    request = urllib.request.Request(url, data=data, headers=headers)
+    
     response=None
     try:
-        response=urllib.request.urlopen(request)
+        request = urllib.request.Request(url, data=data, headers=headers)       
+        response = urllib.request.urlopen(request)
     except:
         print('!Error:',url,'failed')
 

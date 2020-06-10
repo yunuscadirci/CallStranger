@@ -1,3 +1,4 @@
+setuptools
 cryptography
 requests
 termcolor
