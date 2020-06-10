@@ -78,7 +78,6 @@ class SSDPDevice:
         self.services = {}
         self.selected_service = None
         self.document_location=utils.parse_http_header(response, 'Location')
-
         self._get_description_request(utils.parse_http_header(response, 'Location'))
         self._get_friendly_name_request()
         self._get_type_request()
