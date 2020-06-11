@@ -68,7 +68,7 @@ def geturl(path):
 	try:
 		getses=requests.request('GET',path)
 		document=getses.text
-		print(colored('Successfully get session:'+path,'green'))
+		print(colored('Successfully get device document: '+path,'green'))
 	except:
 		print(colored('Could not  contact server',path,'red'))
 	return document
