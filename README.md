@@ -36,7 +36,7 @@ termcolor
 
 ## Usage
 
-just navigate to CallStranger and run with Python3 (Tested Python 3.7.5 on Windows 10, Python 3.8.2 on Kali 2020.2)
+just navigate to CallStranger and run with Python3 (with at least Python 3.6 due to PEP-498 usage, Tested Python 3.7.5 on Windows 10, Python 3.8.2 on Kali 2020.2)
 For current subnet scan & test:
 
     python3 CallStranger.py
