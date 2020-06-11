@@ -58,9 +58,9 @@ def getsession(path):
 	try:
 		getses=requests.request('PUT',path)
 		session=getses.text
-		print(colored('Successfully get session:'+session,'green'))
+		print(colored('Successfully get session: '+session,'green'))
 	except:
-		print(colored('Could not  contact server',path,' for vulnerability confirmation','red'))
+		print(colored('Could not contact server '+path+' for vulnerability confirmation','red'))
 	return session
 	
 def geturl(path):
@@ -70,7 +70,7 @@ def geturl(path):
 		document=getses.text
 		print(colored('Successfully get device document: '+path,'green'))
 	except:
-		print(colored('Could not  contact server',path,'red'))
+		print(colored('Could not  contact server '+path,'red'))
 	return document
 	
 	
@@ -116,7 +116,7 @@ def confirmvulnerableservices(path,key):
 			print(colored(str(i)+':	'+unverifiedservice,'yellow'))
 			i=i+1
 	except:
-		print(colored('Could not get services from server',path,' for vulnerability confirmation','red'))
+		print(colored('Could not get services from server '+path+' for vulnerability confirmation','red'))
 
 def Diff(li1, li2): 
     li_dif = [i for i in li1 + li2 if i not in li1 or i not in li2] 
