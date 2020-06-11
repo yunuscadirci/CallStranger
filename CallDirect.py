@@ -77,15 +77,27 @@ def geturl(path):
 
 	
 def get_services(path):
-	root = minidom.parseString(geturl(path))
-	o=urlparse(path)
+										 
+				 
+	try:
+		root = minidom.parseString(geturl(path))
+		o=urlparse(path)
+	except Exception as e:
+		print('!Error in dom creation for ',path)
+		print(geturl(path))
+		return services
 	try:
 		for service in root.getElementsByTagName('service'):
-			event_sub_url = ('/'+service.getElementsByTagName('eventSubURL')[0].firstChild.nodeValue).replace('//','/') # dirty hack for eventSubURL startr 
-			print(event_sub_url)
-			services.append(o.scheme+'://'+o.netloc+event_sub_url)
+			# there are devices with empty eventSubURL
+			if service.getElementsByTagName('eventSubURL')[0].firstChild is None:
+				print('eventSubURL is empty')
+				print(geturl(path))
+			else:
+				event_sub_url = ('/'+service.getElementsByTagName('eventSubURL')[0].firstChild.nodeValue).replace('//','/') # dirty hack for eventSubURL startr 
+				print('eventSubURL: {}'.format(event_sub_url))
+				services.append(o.scheme+'://'+o.netloc+event_sub_url)
 	except Exception as e:
-		print('!Error in service definition',path,root)
+		print('!Error in service definition {} {} {}'.format(path,root,e))
 	return services
 	
 def confirmvulnerableservices(path,key):
@@ -138,25 +150,27 @@ print('Stranger Port:',StrangerPort)
 
 
 get_services(sys.argv[1]);
-print('\n','Total', len(services), 'service(s) found. do you want to continue to VERIFY if service(s) are vulnerable?')
-print(colored('Be careful: This operation needs Internet access and may transfer data about devices over network. Data encrypted on local and we can not see which services are vulnerable but ISPs and other elements may be able to inspect HTTP headers created by UPnP device. Because most of UPnPstack do not allow SSL connection we can not use it. ','red'))
-if input('Do you want to continue? y/N ') == 'y':
-	ss=getsession(StrangerHost+':'+StrangerPort+getSessionPath)
-	key = Fernet.generate_key()
-	f=Fernet(key)
-	print('Symmetric random key for encryption:',key,' We do not send this value to server so we can not see which services are vulnerable. All confirmation process is done on client side' )
-	for serv in services:
-		path=StrangerHost+':'+StrangerPort+putServicePath+f.encrypt(serv.encode()).decode()+'&token='+ss
-		print('Calling stranger for ', serv, 'with',path)
-		try:
-			subscribe(serv,path)
-		except:
-			print(serv,path , ' failed')
+print('\n','Total', len(services), 'service(s) found.')
+if len(services) > 0:
+	print('Do you want to continue to VERIFY if service(s) are vulnerable?')
+	print(colored('Be careful: This operation needs Internet access and may transfer data about devices over network. Data encrypted on local and we can not see which services are vulnerable but ISPs and other elements may be able to inspect HTTP headers created by UPnP device. Because most of UPnPstack do not allow SSL connection we can not use it. ','red'))
+	if input('Do you want to continue? y/N ') == 'y':
+		ss=getsession(StrangerHost+':'+StrangerPort+getSessionPath)
+		key = Fernet.generate_key()
+		f=Fernet(key)
+		print('Symmetric random key for encryption:',key,' We do not send this value to server so we can not see which services are vulnerable. All confirmation process is done on client side' )
+		for serv in services:
+			path=StrangerHost+':'+StrangerPort+putServicePath+f.encrypt(serv.encode()).decode()+'&token='+ss
+			print('Calling stranger for ', serv, 'with',path)
+			try:
+				subscribe(serv,path)
+			except:
+				print(serv,path , ' failed')
 			
-	print(colored('\n	Waiting 5 second for asynchronous requests','yellow'))
-	time.sleep(5) 
-	vulnerabilityconfirmationpath=StrangerHost+':'+StrangerPort+getVulnerableServicesPath+'&token='+ss
-	confirmvulnerableservices(vulnerabilityconfirmationpath,key)
+		print(colored('\n	Waiting 5 second for asynchronous requests','yellow'))
+		time.sleep(5) 
+		vulnerabilityconfirmationpath=StrangerHost+':'+StrangerPort+getVulnerableServicesPath+'&token='+ss
+		confirmvulnerableservices(vulnerabilityconfirmationpath,key)
 		
 
 
