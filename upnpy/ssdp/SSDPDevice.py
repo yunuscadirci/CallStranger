@@ -114,8 +114,12 @@ class SSDPDevice:
         return self.friendly_name
 
     def _get_description_request(self, url):
-        device_description = utils.make_http_request(url).read()
-        self.description = device_description
+        device_description=None
+        try:		
+            device_description = utils.make_http_request(url).read()
+            self.description = device_description
+        except:
+            print('!Error in device description request',url)
         return device_description.decode()
 
     @_device_description_required
