@@ -67,22 +67,25 @@ class SSDPDevice:
     """
 
     def __init__(self, address, response):
-        self.address = address
-        self.host = address[0]
-        self.port = address[1]
-        self.response = response
-        self.description = None
-        self.friendly_name = None
-        self.type_ = None
-        self.base_url = None
-        self.services = {}
-        self.selected_service = None
-        self.document_location=utils.parse_http_header(response, 'Location')
-        self._get_description_request(utils.parse_http_header(response, 'Location'))
-        self._get_friendly_name_request()
-        self._get_type_request()
-        self._get_base_url_request()
-        self._get_services_request()
+        try:
+           self.address = address
+           self.host = address[0]
+           self.port = address[1]
+           self.response = response
+           self.description = None
+           self.friendly_name = None
+           self.type_ = None
+           self.base_url = None
+           self.services = {}
+           self.selected_service = None
+           self.document_location=utils.parse_http_header(response, 'Location')
+           self._get_description_request(utils.parse_http_header(response, 'Location'))
+           self._get_friendly_name_request()
+           self._get_type_request()
+           self._get_base_url_request()
+           self._get_services_request()
+        except:
+           print('!Error in ',address)			
 
     def get_services(self):
 
