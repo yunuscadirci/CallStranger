@@ -115,15 +115,15 @@ if len(devices)>0:
 	print(colored(len(devices),'blue') , colored(' devices found:','blue'))
 
 	for device in devices:
-		print('\n',colored(device.friendly_name,'yellow') ,device.base_url,'(',device.document_location,')')
+		print('\n',colored(str(device.friendly_name),'yellow') ,str(device.base_url),'(',str(device.document_location),')')
 		tmpservices=device.get_services()
-		print(colored('\n  ' +str(len(tmpservices)) + ' service(s) found for '+device.friendly_name,'yellow'))
+		print(colored('\n  ' +str(len(tmpservices)) + ' service(s) found for '+str(device.friendly_name),'yellow'))
 		for tmpservice in tmpservices:
-			print('    ',tmpservice.service, "	-->",device.base_url+tmpservice.event_sub_url,  )
-			if any(x in  tmpservice.event_sub_url for x in dummyservicekeywords):
-				print('     --skipping ',device.base_url+tmpservice.event_sub_url ,'because it contains dummy service keywords')
+			print('    ',str(tmpservice.service), "	-->",str(device.base_url)+str(tmpservice.event_sub_url),  )
+			if any(x in  str(tmpservice.event_sub_url) for x in dummyservicekeywords):
+				print('     --skipping ',str(device.base_url)+str(tmpservice.event_sub_url) ,'because it contains dummy service keywords')
 			else:
-				services.append(device.base_url+tmpservice.event_sub_url)
+				services.append(str(device.base_url)+str(tmpservice.event_sub_url))
 			
 	print('\n','Total', len(services), 'service(s) found. do you want to continue to VERIFY if service(s) are vulnerable?')
 	print(colored('Be careful: This operation needs Internet access and may transfer data about devices over network. Data encrypted on local and we can not see which services are vulnerable but ISPs and other elements may be able to inspect HTTP headers created by UPnP device. Because most of UPnPstack do not allow SSL connection we can not use it. ','red'))
