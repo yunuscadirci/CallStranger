@@ -1,4 +1,4 @@
-FROM python:3.6-buster
+FROM python:3-buster
 
 RUN apt update && apt install git 
 
