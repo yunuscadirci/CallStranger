@@ -26,13 +26,9 @@ OCF updated UPnP specification on 17.04.2020 to remediate this vulnerability. Ch
 
 ## Install
 
-    sudo python3 setup.py install
-if needed
-
-    sudo pip3 install -r requirements.txt
-cryptography
-requests
-termcolor
+    virtualenv -p python3 venv
+    source venv/bin/activate
+    pip3 install -r requirements.txt
 
 ## Usage
 
