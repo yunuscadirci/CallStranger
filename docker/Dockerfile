@@ -1,6 +1,8 @@
 FROM python:3-buster
 
-RUN apt update && apt install git 
+RUN apt update \
+  && apt install git \
+  && rm -rf /var/lib/apt/lists/*
 
 RUN git clone https://github.com/yunuscadirci/CallStranger.git /opt/CallStranger
 
