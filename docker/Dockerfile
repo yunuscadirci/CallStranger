@@ -6,9 +6,8 @@ RUN git clone https://github.com/yunuscadirci/CallStranger.git /opt/CallStranger
 
 RUN cd /opt/CallStranger && pip3 install -r requirements.txt
 
-RUN groupadd -r callstranger && useradd --no-log-init -r -g callstranger callstranger
-
-RUN chown -R callstranger:callstranger /opt/CallStranger/
+RUN groupadd -r callstranger && useradd --no-log-init -r -g callstranger callstranger \
+  && chown -R callstranger:callstranger /opt/CallStranger/
 
 USER callstranger
 
