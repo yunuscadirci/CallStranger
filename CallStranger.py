@@ -35,15 +35,18 @@ def subscribe(URL,callbackURL):
     'NT': 'upnp:event',
     'TIMEOUT': 'Second-300'} 
 	#print(URL,callbackURL,'sending')
-	req = requests.request('SUBSCRIBE', URL,headers=myheaders)
-	if req.status_code==200:
-		print(colored('Subscribe to '+URL+' seems successfull','green'))
-		print(req.headers)
-		print(req.text)
-	else:
-		print(colored('Subscribe to '+URL+' failed with status code:'+str(req.status_code),'red'))
-		print(req.headers)
-		print(req.text)
+	try:
+		req = requests.request('SUBSCRIBE', URL,headers=myheaders)
+		if req.status_code==200:
+			print(colored('Subscribe to '+URL+' seems successfull','green'))
+			print(req.headers)
+			print(req.text)
+		else:
+			print(colored('Subscribe to '+URL+' failed with status code:'+str(req.status_code),'red'))
+			print(req.headers)
+			print(req.text)
+	except:
+		print(colored('Failed to send the request to [' + URL + '] with callback to ['+ callbackURL +']'))
 	
 	
 	
@@ -66,7 +69,7 @@ def confirmvulnerableservices(path,key):
 		print(colored('Successfully get services from server: '+path,'green'))
 		print('')
 		print('Encrypted vulnerable services:')
-		print(vulnerableservices);
+		print(vulnerableservices)
 		print('')
 		print('Decyripting vulnerable services with key:' , key)
 		f = Fernet(key)
