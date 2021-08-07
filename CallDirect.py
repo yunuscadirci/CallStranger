@@ -98,7 +98,7 @@ def confirmvulnerableservices(path,key):
 		print('Encrypted vulnerable services:')
 		print(vulnerableservices);
 		print('')
-		print('Decyripting vulnerable services with key:' , key)
+		print('Decrypting vulnerable services with key:' , key)
 		f = Fernet(key)
 		i=1
 		decryiptedvulnerableservices=[]
